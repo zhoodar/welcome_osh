@@ -163,7 +163,7 @@
 		</div>
 
 
-		<?php  include($_SERVER['DOCUMENT_ROOT'].'/osh/views/pages/'.$view.'.php ');  ?>
+		<?php  include($_SERVER['DOCUMENT_ROOT'].'/wlcomes-osh/views/pages/'.$view.'.php ');  ?>
 
 	
 		
