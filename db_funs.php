@@ -31,11 +31,37 @@
     }
 	
 	
-	function get_cat()
+	function get_cat_otdyh()
     {
         db_connect();
         
         $query = "SELECT * FROM ot_ra_categories ORDER BY id ";
+        
+        $result = mysql_query($query);
+        
+        $result = db_result_to_array($result);
+        
+        return $result;
+    }
+	
+	function get_cat_torgov()
+    {
+        db_connect();
+        
+        $query = "SELECT * FROM to_us_categories ORDER BY id ";
+        
+        $result = mysql_query($query);
+        
+        $result = db_result_to_array($result);
+        
+        return $result;
+    }
+	
+	function get_cat_ucheb()
+    {
+        db_connect();
+        
+        $query = "SELECT * FROM uch_za_categories ORDER BY id ";
         
         $result = mysql_query($query);
         
