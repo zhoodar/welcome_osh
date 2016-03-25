@@ -2,10 +2,10 @@
 
 <html>
 <head>
-	<title>Добро пожаловать!</title>
+	<title>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ!</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="description" content="Город Ош, справочник по городу" />
-	<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
+	<meta name="description" content="Р“РѕСЂРѕРґ РћС€, СЃРїСЂР°РІРѕС‡РЅРёРє РїРѕ РіРѕСЂРѕРґСѓ" />
+	<meta name="keywords" content="С„РѕС‚Рѕ, РћРЁ, Р·РґР°РЅРёСЏ, РјР°СЂС€СЂСѓС‚РєР°, Р’РЈР—С‹ Рё С‚.Рґ." />
 
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
@@ -24,10 +24,10 @@
 	<div class="MainFrame">
 
 		<div class="Lzone"></div>
-		<!--Невидимый часть -->
+		<!--РќРµРІРёРґРёРјС‹Р№ С‡Р°СЃС‚СЊ -->
 
 		<div class="Menu">
-			<!-- начaло меню -->
+			<!-- РЅР°С‡aР»Рѕ РјРµРЅСЋ -->
 			<div class="header">
 				<img src="img/logo.png" style="margin-left: 20px;"/>
 			</div>
@@ -35,103 +35,103 @@
 			<br />
 			<ul id="nav">
 				<li>
-					<a href="index.php?view=index">Главная</a>
+					<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ</a>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Отдых и развлечение</a>
+					<a class="hsubs" href="#">РћС‚РґС‹С… Рё СЂР°Р·РІР»РµС‡РµРЅРёРµ</a>
 					<ul class="subs">
 						<li>
-							<a href="index.php?view=kinoteatr">Кинотеатры</a>
+							<a href="index.php?view=kinoteatr">РљРёРЅРѕС‚РµР°С‚СЂС‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=guesthouse">Гостиница</a>
+							<a href="index.php?view=guesthouse">Р“РѕСЃС‚РёРЅРёС†Р°</a>
 						</li>
 						<li>
-							<a href="index.php?view=restoran">Ресторан</a>
+							<a href="index.php?view=restoran">Р РµСЃС‚РѕСЂР°РЅ</a>
 						</li>
 						<li>
-							<a href="index.php?view=nigthclub">Ночные клубы</a>
+							<a href="index.php?view=nigthclub">РќРѕС‡РЅС‹Рµ РєР»СѓР±С‹</a>
 						</li>
 						<li>
-							<a href="#">Развлекателные центры</a>
+							<a href="#">Р Р°Р·РІР»РµРєР°С‚РµР»РЅС‹Рµ С†РµРЅС‚СЂС‹</a>
 						</li>
 					   <li>
-							<a href="index.php?view=sportclub">Спортивные клубы</a>
+							<a href="index.php?view=sportclub">РЎРїРѕСЂС‚РёРІРЅС‹Рµ РєР»СѓР±С‹</a>
 						</li>
 					
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Товары и услуги</a>
+					<a class="hsubs" href="#">РўРѕРІР°СЂС‹ Рё СѓСЃР»СѓРіРё</a>
 					<ul class="subs">
 						<li>
-							<a href="index.php?view=torgovye-sentr">Торговые центры</a>
+							<a href="index.php?view=torgovye-sentr">РўРѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹</a>
 						</li>
 						<li>
-							<a href="#">Спермаркеты</a>
+							<a href="#">РЎРїРµСЂРјР°СЂРєРµС‚С‹</a>
 						</li>
 						<li>
-							<a href="#">Магазины</a>
+							<a href="#">РњР°РіР°Р·РёРЅС‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=banks">Банки</a>
+							<a href="index.php?view=banks">Р‘Р°РЅРєРё</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Учебное заведения</a>
+					<a class="hsubs" href="#">РЈС‡РµР±РЅРѕРµ Р·Р°РІРµРґРµРЅРёСЏ</a>
 					<ul class="subs">
 						<li>
-							<a href="index.php?view=univers">ВУЗы</a>
+							<a href="index.php?view=univers">Р’РЈР—С‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=schools">Школы</a>
+							<a href="index.php?view=schools">РЁРєРѕР»С‹</a>
 						</li>
 						<li>
-							<a href="#">Учебные центры</a>
+							<a href="#">РЈС‡РµР±РЅС‹Рµ С†РµРЅС‚СЂС‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=detskiesady">Дет сады</a>
+							<a href="index.php?view=detskiesady">Р”РµС‚ СЃР°РґС‹</a>
 						</li>
 						
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Интересное </a>
+					<a class="hsubs" href="#">РРЅС‚РµСЂРµСЃРЅРѕРµ </a>
 					<ul class="subs">
 					<li>
-						<a href="galerea.php"> Галерея </a>
+						<a href="galerea.php"> Р“Р°Р»РµСЂРµСЏ </a>
 					</li>
 					<li>
-						<a href="#"> Фото блог </a>
+						<a href="#"> Р¤РѕС‚Рѕ Р±Р»РѕРі </a>
 					</li>
 					<li>
-						<a href="#"> Форум </a>
+						<a href="#"> Р¤РѕСЂСѓРј </a>
 					</li>
 					
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Объявления </a>
+					<a class="hsubs" href="#">РћР±СЉСЏРІР»РµРЅРёСЏ </a>
 					<ul class="subs">
 					<li>
-						<a href="#"> Эфективная объявления </a>
+						<a href="#"> Р­С„РµРєС‚РёРІРЅР°СЏ РѕР±СЉСЏРІР»РµРЅРёСЏ </a>
 					</li>
 					
 					
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#"> Ош &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+					<a class="hsubs" href="#"> РћС€ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
 					<ul class="subs">
 					<li>
-						<a href="index.php?view=oshcity"> О городе Ош </a>
+						<a href="index.php?view=oshcity"> Рћ РіРѕСЂРѕРґРµ РћС€ </a>
 					</li>
 					<li>
-						<a href="#"> Новости </a>
+						<a href="#"> РќРѕРІРѕСЃС‚Рё </a>
 					</li>
 					<li>
-						<a href="#"> Карта города </a>
+						<a href="#"> РљР°СЂС‚Р° РіРѕСЂРѕРґР° </a>
 					</li>
 					
 					</ul>
@@ -155,23 +155,23 @@
 
 		</div>
 
-<div class="pois">                             <!-- див поиск  -->
+<div class="pois">                             <!-- РґРёРІ РїРѕРёСЃРє  -->
 		                                    
 		<form name="search" action="search.php" method="post"  style="margin: 10px 20px  5px 520px;float: right;">
-         <input type="text" name="words" size="25"  placeholder="Поиск по сайту">
-        <input type="submit" name="bsearch" value=" поиск ">
+         <input type="text" name="words" size="25"  placeholder="РџРѕРёСЃРє РїРѕ СЃР°Р№С‚Сѓ">
+        <input type="submit" name="bsearch" value=" РїРѕРёСЃРє ">
        </form>
 		</div>
 
 
-		<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная </a>&rarr;<a href="index.php?view=torgovye-sentr">Торговые центры</a> &rarr;
-   <p> <h2>  Торговый центр ОШ Сити в ОШе. Отзывы, жалобы, контакты</h2> </p>
+		<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ </a>&rarr;<a href="index.php?view=torgovye-sentr">РўРѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹</a> &rarr;
+   <p> <h2>  РўРѕСЂРіРѕРІС‹Р№ С†РµРЅС‚СЂ РћРЁ РЎРёС‚Рё РІ РћРЁРµ. РћС‚Р·С‹РІС‹, Р¶Р°Р»РѕР±С‹, РєРѕРЅС‚Р°РєС‚С‹</h2> </p>
 <hr size="6" color="#468bea"/>
     <div>
-		 <strong>Адрес:</strong> г.ОШ ул. Масалиева 29 
-			<br> <strong>Телефон:</strong> 0778555 444
-			<br> <strong>Часы работы:</strong> ежедневно, 09:00-22:00 
+		 <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РњР°СЃР°Р»РёРµРІР° 29 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0778555 444
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, 09:00-22:00 
 		</div>
 
 	<br/><br/>
@@ -185,7 +185,7 @@
 	</table>
 	
 	<div>
-	<p >  <strong>Место нахождение на карте</strong> </p>
+	<p >  <strong>РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёРµ РЅР° РєР°СЂС‚Рµ</strong> </p>
 		<img border="3" style="border-color: #adafb4;" src="img/map.png"/>
 	</div>
 	<br/>

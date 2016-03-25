@@ -1,12 +1,12 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> Школы &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> РЁРєРѕР»С‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td><img src="img/shkoly.jpg"  /></td> 
-   <td> <h2>   Школы ОШа- отзывы и  контакты, адреса, информация</h2> 	Школы начали появляться еще в древние времена, когда людям понадобилось передавать свои знания будущему поколению – своим детям о письменности и речи. В нашем современном мире, для того что бы попасть в мир взрослой жизни, школу проходит каждый, получив там необходимый набор знаний. Чем больше город, тем больше в нем школ, и это логично.ОШ, хоть и город не особо большой, но образовательных учреждений в нем достаточно, чтобы стать перед выбором: в какую школу пойти в ОШ?! Этот раздел сайта именно для этого и создан, чтобы помочь родителям определиться с выбором.	</td>
+   <td> <h2>   РЁРєРѕР»С‹ РћРЁР°- РѕС‚Р·С‹РІС‹ Рё  РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР°, РёРЅС„РѕСЂРјР°С†РёСЏ</h2> 	РЁРєРѕР»С‹ РЅР°С‡Р°Р»Рё РїРѕСЏРІР»СЏС‚СЊСЃСЏ РµС‰Рµ РІ РґСЂРµРІРЅРёРµ РІСЂРµРјРµРЅР°, РєРѕРіРґР° Р»СЋРґСЏРј РїРѕРЅР°РґРѕР±РёР»РѕСЃСЊ РїРµСЂРµРґР°РІР°С‚СЊ СЃРІРѕРё Р·РЅР°РЅРёСЏ Р±СѓРґСѓС‰РµРјСѓ РїРѕРєРѕР»РµРЅРёСЋ вЂ“ СЃРІРѕРёРј РґРµС‚СЏРј Рѕ РїРёСЃСЊРјРµРЅРЅРѕСЃС‚Рё Рё СЂРµС‡Рё. Р’ РЅР°С€РµРј СЃРѕРІСЂРµРјРµРЅРЅРѕРј РјРёСЂРµ, РґР»СЏ С‚РѕРіРѕ С‡С‚Рѕ Р±С‹ РїРѕРїР°СЃС‚СЊ РІ РјРёСЂ РІР·СЂРѕСЃР»РѕР№ Р¶РёР·РЅРё, С€РєРѕР»Сѓ РїСЂРѕС…РѕРґРёС‚ РєР°Р¶РґС‹Р№, РїРѕР»СѓС‡РёРІ С‚Р°Рј РЅРµРѕР±С…РѕРґРёРјС‹Р№ РЅР°Р±РѕСЂ Р·РЅР°РЅРёР№. Р§РµРј Р±РѕР»СЊС€Рµ РіРѕСЂРѕРґ, С‚РµРј Р±РѕР»СЊС€Рµ РІ РЅРµРј С€РєРѕР», Рё СЌС‚Рѕ Р»РѕРіРёС‡РЅРѕ.РћРЁ, С…РѕС‚СЊ Рё РіРѕСЂРѕРґ РЅРµ РѕСЃРѕР±Рѕ Р±РѕР»СЊС€РѕР№, РЅРѕ РѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅС‹С… СѓС‡СЂРµР¶РґРµРЅРёР№ РІ РЅРµРј РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ, С‡С‚РѕР±С‹ СЃС‚Р°С‚СЊ РїРµСЂРµРґ РІС‹Р±РѕСЂРѕРј: РІ РєР°РєСѓСЋ С€РєРѕР»Сѓ РїРѕР№С‚Рё РІ РћРЁ?! Р­С‚РѕС‚ СЂР°Р·РґРµР» СЃР°Р№С‚Р° РёРјРµРЅРЅРѕ РґР»СЏ СЌС‚РѕРіРѕ Рё СЃРѕР·РґР°РЅ, С‡С‚РѕР±С‹ РїРѕРјРѕС‡СЊ СЂРѕРґРёС‚РµР»СЏРј РѕРїСЂРµРґРµР»РёС‚СЊСЃСЏ СЃ РІС‹Р±РѕСЂРѕРј.	</td>
  </tr>
  </table>
 	
@@ -15,14 +15,14 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Школы ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«РЁРєРѕР»С‹ РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Школа-гимназия № 2 им.К.Маркса </strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723503,ул.Ташкентская
-			<br> <strong>Телефон:</strong> (+996 553) 25 14 52; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЁРєРѕР»Р°-РіРёРјРЅР°Р·РёСЏ в„– 2 РёРј.Рљ.РњР°СЂРєСЃР° </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723503,СѓР».РўР°С€РєРµРЅС‚СЃРєР°СЏ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 553) 25 14 52; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -30,9 +30,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Школа гимназии № 3 им. М.В. Ломоносова</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул.К.Датка 97
-			<br> <strong>Телефон:</strong> (+996 3222) 2 38 33;			
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЁРєРѕР»Р° РіРёРјРЅР°Р·РёРё в„– 3 РёРј. Рњ.Р’. Р›РѕРјРѕРЅРѕСЃРѕРІР°</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР».Рљ.Р”Р°С‚РєР° 97
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 2 38 33;			
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -40,9 +40,9 @@
 		<tr  >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Школа -гимназия №5 имени Ж.Боконбаева</strong> </a> <br> <strong>Адрес:</strong> г.Ош - Исанова б/н
-			<br> <strong>Телефон:</strong> (0777) 15-78-00 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЁРєРѕР»Р° -РіРёРјРЅР°Р·РёСЏ в„–5 РёРјРµРЅРё Р–.Р‘РѕРєРѕРЅР±Р°РµРІР°</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - РСЃР°РЅРѕРІР° Р±/РЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (0777) 15-78-00 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -50,9 +50,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Средняя общеобразовательная школа № 6 </strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723000, пр. Масалиева, № 48 
-			<br> <strong>Телефон:</strong>  (+996 3222) 3 90 12; (+996 772) 36 70 50;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° в„– 6 </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723000, РїСЂ. РњР°СЃР°Р»РёРµРІР°, в„– 48 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  (+996 3222) 3 90 12; (+996 772) 36 70 50;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -60,9 +60,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Средняя общеобразовательная школа № 7</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723500, Ошская 75
-			<br> <strong>Телефон:</strong> (+996 3222) 3 08 88;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° в„– 7</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723500, РћС€СЃРєР°СЏ 75
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 3 08 88;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -70,9 +70,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> школа гиназиия № 9 имени А.Рудаки</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 714000,ул.Низами б/н
-			<br> <strong>Телефон:</strong> (+996 3222) 5 57 11;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> С€РєРѕР»Р° РіРёРЅР°Р·РёРёСЏ в„– 9 РёРјРµРЅРё Рђ.Р СѓРґР°РєРё</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 714000,СѓР».РќРёР·Р°РјРё Р±/РЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 57 11;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -80,9 +80,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>  Средняя общеобразовательная школа № 11</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723516,ул.Байтемирова 1
-			<br> <strong>Телефон:</strong> (+996 3222) 2 62 14;  
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>  РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° в„– 11</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723516,СѓР».Р‘Р°Р№С‚РµРјРёСЂРѕРІР° 1
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 2 62 14;  
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -90,9 +90,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Средняя школа № 14 имени Каныбек Алтыбаева</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723505,мкр.Кулатова б/н
-			<br> <strong>Телефон:</strong> (+996 3222) 6 30 64;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЎСЂРµРґРЅСЏСЏ С€РєРѕР»Р° в„– 14 РёРјРµРЅРё РљР°РЅС‹Р±РµРє РђР»С‚С‹Р±Р°РµРІР°</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723505,РјРєСЂ.РљСѓР»Р°С‚РѕРІР° Р±/РЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 6 30 64;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -100,9 +100,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Школа гимназия №16 имени 40 лет Кыргызстана</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 714000,ул.Атабаева 36
-			<br> <strong>Телефон:</strong> (+996 3222) 5 01 93;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЁРєРѕР»Р° РіРёРјРЅР°Р·РёСЏ в„–16 РёРјРµРЅРё 40 Р»РµС‚ РљС‹СЂРіС‹Р·СЃС‚Р°РЅР°</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 714000,СѓР».РђС‚Р°Р±Р°РµРІР° 36
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 01 93;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -110,9 +110,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Средняя общеобразовательная школа № 26</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 714012,ул Толонова №75	
-			<br> <strong>Телефон:</strong> (+996 3222) 4 18 02;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° в„– 26</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 714012,СѓР» РўРѕР»РѕРЅРѕРІР° в„–75	
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 4 18 02;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -120,9 +120,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> с.ш.с гимназическими классами №31 имени Курманжан датки </strong> </a> <br> <strong>Адрес:</strong>г.Ош - Мамыров 170
-			<br> <strong>Телефон:</strong> (+996 3222) 6 04 64;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> СЃ.С€.СЃ РіРёРјРЅР°Р·РёС‡РµСЃРєРёРјРё РєР»Р°СЃСЃР°РјРё в„–31 РёРјРµРЅРё РљСѓСЂРјР°РЅР¶Р°РЅ РґР°С‚РєРё </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>Рі.РћС€ - РњР°РјС‹СЂРѕРІ 170
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 6 04 64;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -130,9 +130,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> 	Средняя общеобразовательная школа № 39</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723504,ул.Мадумарова 85
-			<br> <strong>Телефон:</strong> (+996 3222) 7 10 28;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> 	РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° в„– 39</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723504,СѓР».РњР°РґСѓРјР°СЂРѕРІР° 85
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 7 10 28;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -140,9 +140,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Средняя общеобразовательная школа № 42</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723500,ул.мкр.Тулейкен
-			<br> <strong>Телефон:</strong> (+996 3222) 6 45 44;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° в„– 42</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723500,СѓР».РјРєСЂ.РўСѓР»РµР№РєРµРЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 6 45 44;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -150,9 +150,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Средняя общеобразовательная школа Илим -Ош</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 714003, ул.Петрова б/н
-			<br> <strong>Телефон:</strong> (+996 3222) 5 29 87;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ С€РєРѕР»Р° РР»РёРј -РћС€</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 714003, СѓР».РџРµС‚СЂРѕРІР° Р±/РЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 29 87;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -160,9 +160,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Средняя общеобразовательная Школа Ага Хана</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723510, ул.Курманжан Датка 93
-			<br> <strong>Телефон:</strong> (+996 3222) 2 13 64;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЎСЂРµРґРЅСЏСЏ РѕР±С‰РµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ РЁРєРѕР»Р° РђРіР° РҐР°РЅР°</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723510, СѓР».РљСѓСЂРјР°РЅР¶Р°РЅ Р”Р°С‚РєР° 93
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 2 13 64;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -170,9 +170,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Школа- гимназия " Олимп"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - 723500,ул.Алиева 72а
-			<br> <strong>Телефон:</strong> (+996 3222) 7 06 01;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РЁРєРѕР»Р°- РіРёРјРЅР°Р·РёСЏ " РћР»РёРјРї"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - 723500,СѓР».РђР»РёРµРІР° 72Р°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 7 06 01;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -180,9 +180,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Ошский лицей "Сема"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Байтемирова 3
-			<br> <strong>Телефон:</strong> (+996 3222) 5 51 47; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РћС€СЃРєРёР№ Р»РёС†РµР№ "РЎРµРјР°"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». Р‘Р°Р№С‚РµРјРёСЂРѕРІР° 3
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 51 47; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -190,9 +190,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Ошский лицей "Себат"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - Ж. Раимбекова
-			<br> <strong>Телефон:</strong> (+996 3222) 5 51 31;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РћС€СЃРєРёР№ Р»РёС†РµР№ "РЎРµР±Р°С‚"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - Р–. Р Р°РёРјР±РµРєРѕРІР°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 51 31;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

@@ -1,14 +1,14 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> ВУЗы &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> Р’РЈР—С‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td><img src="img/univers.jpg"  /></td> 
-   <td> <h2>   ВУЗы ОШа - отзывы , контакты, адреса  </h2> Перед Вами представлен <strong>
-   полный  список университетов ОШа. </strong><br />
-Ищите адреса, контактные телефоны, сайты, читайте отзывы реальных пользователей о лучших университетах ОШа.  Не забывайте изучать также и фотографии.
+   <td> <h2>   Р’РЈР—С‹ РћРЁР° - РѕС‚Р·С‹РІС‹ , РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР°  </h2> РџРµСЂРµРґ Р’Р°РјРё РїСЂРµРґСЃС‚Р°РІР»РµРЅ <strong>
+   РїРѕР»РЅС‹Р№  СЃРїРёСЃРѕРє СѓРЅРёРІРµСЂСЃРёС‚РµС‚РѕРІ РћРЁР°. </strong><br />
+РС‰РёС‚Рµ Р°РґСЂРµСЃР°, РєРѕРЅС‚Р°РєС‚РЅС‹Рµ С‚РµР»РµС„РѕРЅС‹, СЃР°Р№С‚С‹, С‡РёС‚Р°Р№С‚Рµ РѕС‚Р·С‹РІС‹ СЂРµР°Р»СЊРЅС‹С… РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№ Рѕ Р»СѓС‡С€РёС… СѓРЅРёРІРµСЂСЃРёС‚РµС‚Р°С… РћРЁР°.  РќРµ Р·Р°Р±С‹РІР°Р№С‚Рµ РёР·СѓС‡Р°С‚СЊ С‚Р°РєР¶Рµ Рё С„РѕС‚РѕРіСЂР°С„РёРё.
 
 	</td>
  </tr>
@@ -19,15 +19,15 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Университеты ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«РЈРЅРёРІРµСЂСЃРёС‚РµС‚С‹ РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="oshsu.php"><strong>Ошский Государственный Университет </strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Ленина 331
-			<br> <strong>Телефон:</strong> 
-			<br> <strong>Часы работы:</strong> рабочие дни, 08:00-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="oshsu.php"><strong>РћС€СЃРєРёР№ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ РЈРЅРёРІРµСЂСЃРёС‚РµС‚ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». Р›РµРЅРёРЅР° 331
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> СЂР°Р±РѕС‡РёРµ РґРЅРё, 08:00-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -35,10 +35,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="oshtu.php"><strong>Ошский Технологический Университет им.Академика М.М. Адышева</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Исанова, 81 
-			<br> <strong>Телефон:</strong> (+996 3222) 4 31 54; 
-			<br> <strong>Часы работы:</strong> 08:30-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="oshtu.php"><strong>РћС€СЃРєРёР№ РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёР№ РЈРЅРёРІРµСЂСЃРёС‚РµС‚ РёРј.РђРєР°РґРµРјРёРєР° Рњ.Рњ. РђРґС‹С€РµРІР°</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». РСЃР°РЅРѕРІР°, 81 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 4 31 54; 
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 08:30-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -46,10 +46,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ошский Гуманитарный Педагогический Институт</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Исанова, 75
-			<br> <strong>Телефон:</strong> (+996 3222) 5 42 97;
-			<br> <strong>Часы работы:</strong> 08:30-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РћС€СЃРєРёР№ Р“СѓРјР°РЅРёС‚Р°СЂРЅС‹Р№ РџРµРґР°РіРѕРіРёС‡РµСЃРєРёР№ РРЅСЃС‚РёС‚СѓС‚</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». РСЃР°РЅРѕРІР°, 75
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 42 97;
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 08:30-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -57,10 +57,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ошский Государственный юридический Институт </strong> </a> <br> <strong>Адрес:</strong>г.Ош - ул. Салиева 40В
-			<br> <strong>Телефон:</strong>  (+996 3222) 2 76 58; 
-			<br> <strong>Часы работы:</strong> 08:00-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РћС€СЃРєРёР№ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЋСЂРёРґРёС‡РµСЃРєРёР№ РРЅСЃС‚РёС‚СѓС‚ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>Рі.РћС€ - СѓР». РЎР°Р»РёРµРІР° 40Р’
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  (+996 3222) 2 76 58; 
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 08:00-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -68,10 +68,10 @@
 		<tr >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Ошский государственный социальный университет (бывш.Кыргызско-Узбекский университет) </strong> </a> <br> <strong>Адрес:</strong>г.Ош - ул. Г.Айтиева 27
-			<br> <strong>Телефон:</strong>  (+996 3222) 5 70 55
-			<br> <strong>Часы работы:</strong> 08:00-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РћС€СЃРєРёР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЃРѕС†РёР°Р»СЊРЅС‹Р№ СѓРЅРёРІРµСЂСЃРёС‚РµС‚ (Р±С‹РІС€.РљС‹СЂРіС‹Р·СЃРєРѕ-РЈР·Р±РµРєСЃРєРёР№ СѓРЅРёРІРµСЂСЃРёС‚РµС‚) </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>Рі.РћС€ - СѓР». Р“.РђР№С‚РёРµРІР° 27
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  (+996 3222) 5 70 55
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 08:00-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -79,10 +79,10 @@
 		<tr >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Институт языков и мировой культуры </strong> </a> <br> <strong>Адрес:</strong>г.Ош - ул. Кыргызстана 91/А
-			<br> <strong>Телефон:</strong>  (+996 3222) 7 37 12; 
-			<br> <strong>Часы работы:</strong> 08:00-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> РРЅСЃС‚РёС‚СѓС‚ СЏР·С‹РєРѕРІ Рё РјРёСЂРѕРІРѕР№ РєСѓР»СЊС‚СѓСЂС‹ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>Рі.РћС€ - СѓР». РљС‹СЂРіС‹Р·СЃС‚Р°РЅР° 91/Рђ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  (+996 3222) 7 37 12; 
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 08:00-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -90,10 +90,10 @@
 		<tr >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Филиал Российского Государственного Социального Университета в г.Ош </strong> </a> <br> <strong>Адрес:</strong>г.Ош - ул. Карасуйская 161
-			<br> <strong>Телефон:</strong>  (+996 3222) 7 37 12; 
-			<br> <strong>Часы работы:</strong> 08:00-17:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р¤РёР»РёР°Р» Р РѕСЃСЃРёР№СЃРєРѕРіРѕ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РЎРѕС†РёР°Р»СЊРЅРѕРіРѕ РЈРЅРёРІРµСЂСЃРёС‚РµС‚Р° РІ Рі.РћС€ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>Рі.РћС€ - СѓР». РљР°СЂР°СЃСѓР№СЃРєР°СЏ 161
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  (+996 3222) 7 37 12; 
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 08:00-17:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

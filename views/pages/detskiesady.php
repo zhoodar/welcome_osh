@@ -1,14 +1,14 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> Детские сады &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> Р”РµС‚СЃРєРёРµ СЃР°РґС‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td><img src="img/detskie-sady.png"  /></td> 
-   <td> <h2>   Детские сады ОШа - отзывы и контакты, адреса</h2> 	 	
+   <td> <h2>   Р”РµС‚СЃРєРёРµ СЃР°РґС‹ РћРЁР° - РѕС‚Р·С‹РІС‹ Рё РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР°</h2> 	 	
 
-В разделе <strong>«Детские сады ОША»</strong>, для Вас собрана масса полезной информации, касаемо дошкольных образовательных учреждений города. Здесь есть и адреса садиков, контакты, фотографии, отзывы реальных людей, жалобы и пожелания.
+Р’ СЂР°Р·РґРµР»Рµ <strong>В«Р”РµС‚СЃРєРёРµ СЃР°РґС‹ РћРЁРђВ»</strong>, РґР»СЏ Р’Р°СЃ СЃРѕР±СЂР°РЅР° РјР°СЃСЃР° РїРѕР»РµР·РЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё, РєР°СЃР°РµРјРѕ РґРѕС€РєРѕР»СЊРЅС‹С… РѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅС‹С… СѓС‡СЂРµР¶РґРµРЅРёР№ РіРѕСЂРѕРґР°. Р—РґРµСЃСЊ РµСЃС‚СЊ Рё Р°РґСЂРµСЃР° СЃР°РґРёРєРѕРІ, РєРѕРЅС‚Р°РєС‚С‹, С„РѕС‚РѕРіСЂР°С„РёРё, РѕС‚Р·С‹РІС‹ СЂРµР°Р»СЊРЅС‹С… Р»СЋРґРµР№, Р¶Р°Р»РѕР±С‹ Рё РїРѕР¶РµР»Р°РЅРёСЏ.
 	</td>
  </tr>
  </table>
@@ -18,14 +18,14 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Детские сады ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«Р”РµС‚СЃРєРёРµ СЃР°РґС‹ РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад №25 "Ак-Тайлак" </strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Степная 201
-			<br> <strong>Телефон:</strong> (+996 3222) 2 16 97; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–25 "РђРє-РўР°Р№Р»Р°Рє" </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». РЎС‚РµРїРЅР°СЏ 201
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 2 16 97; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -33,9 +33,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад №27 "Чабалекей"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Садырбаева 89
-			<br> <strong>Телефон:</strong> (+996 3222) 5 52 31;		
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–27 "Р§Р°Р±Р°Р»РµРєРµР№"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». РЎР°РґС‹СЂР±Р°РµРІР° 89
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 52 31;		
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -43,9 +43,9 @@
 		<tr  >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад №29</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Краснофлотсткая 7, мкр. Черемушки
-			<br> <strong>Телефон:</strong> (+996 3222) 2 47 40;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–29</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». РљСЂР°СЃРЅРѕС„Р»РѕС‚СЃС‚РєР°СЏ 7, РјРєСЂ. Р§РµСЂРµРјСѓС€РєРё
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 2 47 40;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -53,9 +53,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Детский сад № 40 "Наристе" </strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Фрунзенская 50
-			<br> <strong>Телефон:</strong>  (+996 3222) 2 67 03; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 40 "РќР°СЂРёСЃС‚Рµ" </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». Р¤СЂСѓРЅР·РµРЅСЃРєР°СЏ 50
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  (+996 3222) 2 67 03; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -63,9 +63,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад № 48 "Гулдесте"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул.Латипжанова 2, мкр.Туран
-			<br> <strong>Телефон:</strong> (+996 3222) 5 31 50
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 48 "Р“СѓР»РґРµСЃС‚Рµ"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР».Р›Р°С‚РёРїР¶Р°РЅРѕРІР° 2, РјРєСЂ.РўСѓСЂР°РЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 31 50
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -73,9 +73,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Детский сад №62 "Каныкей"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - мкр.Кулатова
-			<br> <strong>Телефон:</strong> (+996 3222) 6 25 38; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–62 "РљР°РЅС‹РєРµР№"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - РјРєСЂ.РљСѓР»Р°С‚РѕРІР°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 6 25 38; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -83,9 +83,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>  Детский сад №66 "Жомок"</strong> </a> <br> <strong>Адрес:</strong> .Ош - мкр.Тулейкен
-			<br> <strong>Телефон:</strong> (+996 3222) 6 34 75;  
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>  Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–66 "Р–РѕРјРѕРє"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> .РћС€ - РјРєСЂ.РўСѓР»РµР№РєРµРЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 6 34 75;  
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -93,9 +93,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад №69 "Мээрим"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - мкр.Тулейкен
-			<br> <strong>Телефон:</strong> (+996 3222) 6 40 94; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–69 "РњСЌСЌСЂРёРј"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - РјРєСЂ.РўСѓР»РµР№РєРµРЅ
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 6 40 94; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -103,9 +103,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>  Ясли сад №55 "Кулунчак"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - мкр.Амир-Темур, ул.Айни 11
-			<br> <strong>Телефон:</strong> (+996 3222) 5 27 42; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>  РЇСЃР»Рё СЃР°Рґ в„–55 "РљСѓР»СѓРЅС‡Р°Рє"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - РјРєСЂ.РђРјРёСЂ-РўРµРјСѓСЂ, СѓР».РђР№РЅРё 11
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 5 27 42; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -113,9 +113,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад № 61</strong> </a> <br> <strong>Адрес:</strong>  	г.Ош - ул. Т.Мануева 15 (Верхняя Увамская)	
-			<br> <strong>Телефон:</strong> (+996 3222) 8 87 96; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 61</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>  	Рі.РћС€ - СѓР». Рў.РњР°РЅСѓРµРІР° 15 (Р’РµСЂС…РЅСЏСЏ РЈРІР°РјСЃРєР°СЏ)	
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 8 87 96; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -123,9 +123,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>  Детский сад № 42 </strong> </a> <br> <strong>Адрес:</strong>г.Ош - пр.Аэропорта
-			<br> <strong>Телефон:</strong> (+996 3222) 9 01 59; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>  Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 42 </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong>Рі.РћС€ - РїСЂ.РђСЌСЂРѕРїРѕСЂС‚Р°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 9 01 59; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -133,9 +133,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> 	Детский сад № 49</strong> </a> <br> <strong>Адрес:</strong> г.Ош - пр.Салиева 62
-			<br> <strong>Телефон:</strong> (+996 3222) 4 86 39; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> 	Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 49</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - РїСЂ.РЎР°Р»РёРµРІР° 62
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 4 86 39; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -143,9 +143,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>  Детский сад №13</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Абдыкадырова 6
-			<br> <strong>Телефон:</strong>  	(+996 3222) 2 42 04; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>  Р”РµС‚СЃРєРёР№ СЃР°Рґ в„–13</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». РђР±РґС‹РєР°РґС‹СЂРѕРІР° 6
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong>  	(+996 3222) 2 42 04; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -153,9 +153,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад № 36 "Балакай"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул.Спортивная 3
-			<br> <strong>Телефон:</strong> (+996 3222) 4 01 29;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 36 "Р‘Р°Р»Р°РєР°Р№"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР».РЎРїРѕСЂС‚РёРІРЅР°СЏ 3
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 4 01 29;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -163,9 +163,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Детский сад № 30 "Айданек"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул. Ленина 347
-			<br> <strong>Телефон:</strong> (+996 3222) 2 42 47;
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 30 "РђР№РґР°РЅРµРє"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР». Р›РµРЅРёРЅР° 347
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 2 42 47;
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -173,9 +173,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад № 33 "Достук"</strong> </a> <br> <strong>Адрес:</strong> г.Ош - ул.Мукумий 110
-			<br> <strong>Телефон:</strong> (+996 3222) 3 88 18; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 33 "Р”РѕСЃС‚СѓРє"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћС€ - СѓР».РњСѓРєСѓРјРёР№ 110
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 3 88 18; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -183,9 +183,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад № 39 "Кун-Нуру"</strong> </a> <br> <strong>Адрес:</strong> 	г.Ош - ул.Салиева 38
-			<br> <strong>Телефон:</strong> (+996 3222) 8 50 91; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 39 "РљСѓРЅ-РќСѓСЂСѓ"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> 	Рі.РћС€ - СѓР».РЎР°Р»РёРµРІР° 38
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 8 50 91; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -193,9 +193,9 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Детский сад № 67 "Мол-Булак"</strong> </a> <br> <strong>Адрес:</strong> 	г.Ош - ул.Зайнабединова 107а
-			<br> <strong>Телефон:</strong> (+996 3222) 8 60 72; 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р”РµС‚СЃРєРёР№ СЃР°Рґ в„– 67 "РњРѕР»-Р‘СѓР»Р°Рє"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> 	Рі.РћС€ - СѓР».Р—Р°Р№РЅР°Р±РµРґРёРЅРѕРІР° 107Р°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> (+996 3222) 8 60 72; 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

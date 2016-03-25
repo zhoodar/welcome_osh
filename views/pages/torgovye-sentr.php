@@ -1,12 +1,12 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> Торговые центры &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> РўРѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td width="160"><img src="img/torgovye-tsentry.jpg"  /></td> 
-   <td  > <h2> Торговые центры (ТЦ) ОШа - отзывы и  контакты, адреса </h2>  В данном каталоге  находятся, торговые центры ОШа. Теперь Вам не надо «путешествовать» по интернету в поисках контактной информации, отзывов, и жалоб об интересующей организации, все это теперь есть здесь.  	</td>
+   <td  > <h2> РўРѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹ (РўР¦) РћРЁР° - РѕС‚Р·С‹РІС‹ Рё  РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР° </h2>  Р’ РґР°РЅРЅРѕРј РєР°С‚Р°Р»РѕРіРµ  РЅР°С…РѕРґСЏС‚СЃСЏ, С‚РѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹ РћРЁР°. РўРµРїРµСЂСЊ Р’Р°Рј РЅРµ РЅР°РґРѕ В«РїСѓС‚РµС€РµСЃС‚РІРѕРІР°С‚СЊВ» РїРѕ РёРЅС‚РµСЂРЅРµС‚Сѓ РІ РїРѕРёСЃРєР°С… РєРѕРЅС‚Р°РєС‚РЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё, РѕС‚Р·С‹РІРѕРІ, Рё Р¶Р°Р»РѕР± РѕР± РёРЅС‚РµСЂРµСЃСѓСЋС‰РµР№ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІСЃРµ СЌС‚Рѕ С‚РµРїРµСЂСЊ РµСЃС‚СЊ Р·РґРµСЃСЊ.  	</td>
  </tr>
  </table>
 	
@@ -15,15 +15,15 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Торговые центры (ТЦ) ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«РўРѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹ (РўР¦) РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Торговый центр (ТЦ) Рамазан </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Масалиева 29 
-			<br> <strong>Телефон:</strong> 0778555 444
-			<br> <strong>Часы работы:</strong> ежедневно, 09:00-22:00 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РўРѕСЂРіРѕРІС‹Р№ С†РµРЅС‚СЂ (РўР¦) Р Р°РјР°Р·Р°РЅ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РњР°СЃР°Р»РёРµРІР° 29 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0778555 444
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, 09:00-22:00 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -31,10 +31,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="tsoshcity.php"><strong>Торговый центр ОШ СИТИ</strong></a> <br> <strong>Адрес:</strong> г.ОШ ул. Масалиева 50 
-			<br> <strong>Телефон:</strong> 0552356415
-			<br> <strong>Часы работы:</strong> ежедневно, 09:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="tsoshcity.php"><strong>РўРѕСЂРіРѕРІС‹Р№ С†РµРЅС‚СЂ РћРЁ РЎРРўР</strong></a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РњР°СЃР°Р»РёРµРІР° 50 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0552356415
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, 09:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -42,10 +42,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Торговый центр Тынчтык </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Новои 20 
-			<br> <strong>Телефон:</strong> 0554125478
-			<br> <strong>Часы работы:</strong> ежедневно,10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РўРѕСЂРіРѕРІС‹Р№ С†РµРЅС‚СЂ РўС‹РЅС‡С‚С‹Рє </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РќРѕРІРѕРё 20 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0554125478
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ,10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -53,10 +53,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Торговый центр Сезим </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Разакова 27 
-			<br> <strong>Телефон:</strong> 0555712035
-			<br> <strong>Часы работы:</strong> ежедневно,10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РўРѕСЂРіРѕРІС‹Р№ С†РµРЅС‚СЂ РЎРµР·РёРј </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Р Р°Р·Р°РєРѕРІР° 27 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555712035
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ,10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

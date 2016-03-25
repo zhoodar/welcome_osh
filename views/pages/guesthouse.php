@@ -1,12 +1,12 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> Гостиницы &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> Р“РѕСЃС‚РёРЅРёС†С‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td width="160"><img src="img/gostinicy-novorossijska.png"  /></td> 
-   <td  > <h2>   Гостиницы ОШа - отзывы и контакты, адреса </h2> Вашему вниманию в данном каталоге <strong>«Гостиницы ОШа»</strong> предложена достоверная и точная информация о месторасположении на карте любой интересующей гостиницы ее телефонами, адресами, часами работы и ссылками на официальные сайты. Так же можно просмотреть фотографии и отзывы о гостиницах ОШа. Здесь Вы легко сможете найти место для временного пребывания в г. ОШ.	</td>
+   <td  > <h2>   Р“РѕСЃС‚РёРЅРёС†С‹ РћРЁР° - РѕС‚Р·С‹РІС‹ Рё РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР° </h2> Р’Р°С€РµРјСѓ РІРЅРёРјР°РЅРёСЋ РІ РґР°РЅРЅРѕРј РєР°С‚Р°Р»РѕРіРµ <strong>В«Р“РѕСЃС‚РёРЅРёС†С‹ РћРЁР°В»</strong> РїСЂРµРґР»РѕР¶РµРЅР° РґРѕСЃС‚РѕРІРµСЂРЅР°СЏ Рё С‚РѕС‡РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚РѕСЂР°СЃРїРѕР»РѕР¶РµРЅРёРё РЅР° РєР°СЂС‚Рµ Р»СЋР±РѕР№ РёРЅС‚РµСЂРµСЃСѓСЋС‰РµР№ РіРѕСЃС‚РёРЅРёС†С‹ РµРµ С‚РµР»РµС„РѕРЅР°РјРё, Р°РґСЂРµСЃР°РјРё, С‡Р°СЃР°РјРё СЂР°Р±РѕС‚С‹ Рё СЃСЃС‹Р»РєР°РјРё РЅР° РѕС„РёС†РёР°Р»СЊРЅС‹Рµ СЃР°Р№С‚С‹. РўР°Рє Р¶Рµ РјРѕР¶РЅРѕ РїСЂРѕСЃРјРѕС‚СЂРµС‚СЊ С„РѕС‚РѕРіСЂР°С„РёРё Рё РѕС‚Р·С‹РІС‹ Рѕ РіРѕСЃС‚РёРЅРёС†Р°С… РћРЁР°. Р—РґРµСЃСЊ Р’С‹ Р»РµРіРєРѕ СЃРјРѕР¶РµС‚Рµ РЅР°Р№С‚Рё РјРµСЃС‚Рѕ РґР»СЏ РІСЂРµРјРµРЅРЅРѕРіРѕ РїСЂРµР±С‹РІР°РЅРёСЏ РІ Рі. РћРЁ.	</td>
  </tr>
  </table>
 	
@@ -15,15 +15,15 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Гостиныцы ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«Р“РѕСЃС‚РёРЅС‹С†С‹ РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="oshnuru.php"><strong>Гостиница "Ош-Нуру" </strong> </a> <br> <strong>Адрес:</strong> г. Ош  ул. Баялинова 1, 723500
-			<br> <strong>Телефон:</strong> 0778565854
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="oshnuru.php"><strong>Р“РѕСЃС‚РёРЅРёС†Р° "РћС€-РќСѓСЂСѓ" </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі. РћС€  СѓР». Р‘Р°СЏР»РёРЅРѕРІР° 1, 723500
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0778565854
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -31,10 +31,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Гостиница  Classic </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Алиева 143, 723500  
-			<br> <strong>Телефон:</strong> 0555424568
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р“РѕСЃС‚РёРЅРёС†Р°  Classic </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РђР»РёРµРІР° 143, 723500  
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555424568
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -42,10 +42,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Гостиница  Sunrise Osh </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. А. Масалиева 25A, 723500  
-			<br> <strong>Телефон:</strong> 0555124565
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р“РѕСЃС‚РёРЅРёС†Р°  Sunrise Osh </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Рђ. РњР°СЃР°Р»РёРµРІР° 25A, 723500  
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555124565
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -53,10 +53,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Гостиница  "ТЕЗ"    </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Сайбою 5,  723500  
-			<br> <strong>Телефон:</strong> 0555158565
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р“РѕСЃС‚РёРЅРёС†Р°  "РўР•Р—"    </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РЎР°Р№Р±РѕСЋ 5,  723500  
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555158565
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -64,10 +64,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Sunrise Guesthouse </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. А. Масалиева 105 б, 723500  
-			<br> <strong>Телефон:</strong> 0555124565
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Sunrise Guesthouse </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Рђ. РњР°СЃР°Р»РёРµРІР° 105 Р±, 723500  
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555124565
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -75,10 +75,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Гостиница "Орто Азия" </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул.Разакова Авеню 23, 723500  
-			<br> <strong>Телефон:</strong> 0555332565
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р“РѕСЃС‚РёРЅРёС†Р° "РћСЂС‚Рѕ РђР·РёСЏ" </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР».Р Р°Р·Р°РєРѕРІР° РђРІРµРЅСЋ 23, 723500  
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555332565
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -86,10 +86,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Гостиница Silk Way Boutique  </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Авецина 10, 723500  
-			<br> <strong>Телефон:</strong> 0555100565
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р“РѕСЃС‚РёРЅРёС†Р° Silk Way Boutique  </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РђРІРµС†РёРЅР° 10, 723500  
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555100565
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -97,10 +97,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Гостевой Дом 5я Авеню </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Ленина 5, 714000   
-			<br> <strong>Телефон:</strong> 0555125675
-			<br> <strong>Часы работы:</strong> ежедневно, круглосуточно
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р“РѕСЃС‚РµРІРѕР№ Р”РѕРј 5СЏ РђРІРµРЅСЋ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Р›РµРЅРёРЅР° 5, 714000   
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555125675
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, РєСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅРѕ
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

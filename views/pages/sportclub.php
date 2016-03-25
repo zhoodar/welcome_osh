@@ -1,12 +1,12 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> Спортивные клубы &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> РЎРїРѕСЂС‚РёРІРЅС‹Рµ РєР»СѓР±С‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td width="160"><img src="img/sportivnye-kluby.png"  /></td> 
-   <td  > <h2>  Спортивные клубы ОШа - отзывы и контакты, адреса, телефоны, информация </h2> 	В данном каталоге находится подробная информация о <strong>спортивных клубах города ОШа.</strong>	</td>
+   <td  > <h2>  РЎРїРѕСЂС‚РёРІРЅС‹Рµ РєР»СѓР±С‹ РћРЁР° - РѕС‚Р·С‹РІС‹ Рё РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР°, С‚РµР»РµС„РѕРЅС‹, РёРЅС„РѕСЂРјР°С†РёСЏ </h2> 	Р’ РґР°РЅРЅРѕРј РєР°С‚Р°Р»РѕРіРµ РЅР°С…РѕРґРёС‚СЃСЏ РїРѕРґСЂРѕР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ <strong>СЃРїРѕСЂС‚РёРІРЅС‹С… РєР»СѓР±Р°С… РіРѕСЂРѕРґР° РћРЁР°.</strong>	</td>
  </tr>
  </table>
 	
@@ -15,15 +15,15 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Спортивные клубы ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«РЎРїРѕСЂС‚РёРІРЅС‹Рµ РєР»СѓР±С‹ РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Спортивный комплекс Алыш </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Масалиева 
-			<br> <strong>Телефон:</strong> 0778 65 88 41
-			<br> <strong>Часы работы:</strong> ежедневно, 09:00-22:00 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РЎРїРѕСЂС‚РёРІРЅС‹Р№ РєРѕРјРїР»РµРєСЃ РђР»С‹С€ </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РњР°СЃР°Р»РёРµРІР° 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0778 65 88 41
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, 09:00-22:00 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -31,10 +31,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Спортивный клуб Мухамед Умар</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Раззакова 
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РЎРїРѕСЂС‚РёРІРЅС‹Р№ РєР»СѓР± РњСѓС…Р°РјРµРґ РЈРјР°СЂ</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Р Р°Р·Р·Р°РєРѕРІР° 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -42,10 +42,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Спортивный Таймаш</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Раззакова 
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>РЎРїРѕСЂС‚РёРІРЅС‹Р№ РўР°Р№РјР°С€</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Р Р°Р·Р·Р°РєРѕРІР° 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

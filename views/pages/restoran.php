@@ -1,12 +1,12 @@
-<div id="workArea">                                    <!-- див рабочой зоны  -->
-<a href="index.php?view=index">Главная &rarr;</a> Рестораны &rarr;
+<div id="workArea">                                    <!-- РґРёРІ СЂР°Р±РѕС‡РѕР№ Р·РѕРЅС‹  -->
+<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ &rarr;</a> Р РµСЃС‚РѕСЂР°РЅС‹ &rarr;
 
 <div >
 	
 <table border="0">
    <tr>
     <td width="160"><img src="img/restoran.png"  /></td> 
-   <td  > <h2> Рестораны  ОШа – отзывы и  контакты, адреса </h2>  Для жителей и гостей города ОШ в данном разделе предоставляется огромный выбор различных ресторанов ОШа, в которых Вы можете провести свадьбу, романтический ужин, банкеты или деловую встречу. Справочник ресторанов на нашем сайте предоставляет нужную и постоянно проверяемую информацию – контакты, отзывы о ресторанах ОШа, официальные веб сайты. 	</td>
+   <td  > <h2> Р РµСЃС‚РѕСЂР°РЅС‹  РћРЁР° вЂ“ РѕС‚Р·С‹РІС‹ Рё  РєРѕРЅС‚Р°РєС‚С‹, Р°РґСЂРµСЃР° </h2>  Р”Р»СЏ Р¶РёС‚РµР»РµР№ Рё РіРѕСЃС‚РµР№ РіРѕСЂРѕРґР° РћРЁ РІ РґР°РЅРЅРѕРј СЂР°Р·РґРµР»Рµ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РѕРіСЂРѕРјРЅС‹Р№ РІС‹Р±РѕСЂ СЂР°Р·Р»РёС‡РЅС‹С… СЂРµСЃС‚РѕСЂР°РЅРѕРІ РћРЁР°, РІ РєРѕС‚РѕСЂС‹С… Р’С‹ РјРѕР¶РµС‚Рµ РїСЂРѕРІРµСЃС‚Рё СЃРІР°РґСЊР±Сѓ, СЂРѕРјР°РЅС‚РёС‡РµСЃРєРёР№ СѓР¶РёРЅ, Р±Р°РЅРєРµС‚С‹ РёР»Рё РґРµР»РѕРІСѓСЋ РІСЃС‚СЂРµС‡Сѓ. РЎРїСЂР°РІРѕС‡РЅРёРє СЂРµСЃС‚РѕСЂР°РЅРѕРІ РЅР° РЅР°С€РµРј СЃР°Р№С‚Рµ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РЅСѓР¶РЅСѓСЋ Рё РїРѕСЃС‚РѕСЏРЅРЅРѕ РїСЂРѕРІРµСЂСЏРµРјСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ вЂ“ РєРѕРЅС‚Р°РєС‚С‹, РѕС‚Р·С‹РІС‹ Рѕ СЂРµСЃС‚РѕСЂР°РЅР°С… РћРЁР°, РѕС„РёС†РёР°Р»СЊРЅС‹Рµ РІРµР± СЃР°Р№С‚С‹. 	</td>
  </tr>
  </table>
 	
@@ -15,15 +15,15 @@
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
 		<tr>
-			<td bgcolor="#ced7dd" height="30"> <u>Статистика справочника «Рестораны ОШа»</u></td>
+			<td bgcolor="#ced7dd" height="30"> <u>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° В«Р РµСЃС‚РѕСЂР°РЅС‹ РћРЁР°В»</u></td>
 		</tr>
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ресторан "Олигарх" </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Сымбат 
-			<br> <strong>Телефон:</strong> 0555444155
-			<br> <strong>Часы работы:</strong> ежедневно, 12:00-01:00 
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р РµСЃС‚РѕСЂР°РЅ "РћР»РёРіР°СЂС…" </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РЎС‹РјР±Р°С‚ 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 0555444155
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> РµР¶РµРґРЅРµРІРЅРѕ, 12:00-01:00 
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -31,10 +31,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ресторан "Аристократ"</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Раззакова 
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р РµСЃС‚РѕСЂР°РЅ "РђСЂРёСЃС‚РѕРєСЂР°С‚"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Р Р°Р·Р·Р°РєРѕРІР° 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a> |<a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -42,10 +42,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ресторан "Эльдорадо"</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Сымбат 
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р РµСЃС‚РѕСЂР°РЅ "Р­Р»СЊРґРѕСЂР°РґРѕ"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РЎС‹РјР±Р°С‚ 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -53,10 +53,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ресторан Каныкей</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Масалиева
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р РµСЃС‚РѕСЂР°РЅ РљР°РЅС‹РєРµР№</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РњР°СЃР°Р»РёРµРІР°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -64,10 +64,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong> Ресторан "Blonder" </strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Алымбек датка
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong> Р РµСЃС‚РѕСЂР°РЅ "Blonder" </strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РђР»С‹РјР±РµРє РґР°С‚РєР°
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -75,10 +75,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ресторан Однажды</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Курманжан датка 
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р РµСЃС‚РѕСЂР°РЅ РћРґРЅР°Р¶РґС‹</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». РљСѓСЂРјР°РЅР¶Р°РЅ РґР°С‚РєР° 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>
@@ -86,10 +86,10 @@
 		<tr   >
 			<td>
              <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-			 <a href="#"><strong>Ресторан "Ак-Буура"</strong> </a> <br> <strong>Адрес:</strong> г.ОШ ул. Раззакова 
-			<br> <strong>Телефон:</strong> 05554441551
-			<br> <strong>Часы работы:</strong> 10:00-22:00
-			<br> <a href="#"><strong>Фотографий </strong></a>| <a href="#"><strong>Отзывы</strong></a>
+			 <a href="#"><strong>Р РµСЃС‚РѕСЂР°РЅ "РђРє-Р‘СѓСѓСЂР°"</strong> </a> <br> <strong>РђРґСЂРµСЃ:</strong> Рі.РћРЁ СѓР». Р Р°Р·Р·Р°РєРѕРІР° 
+			<br> <strong>РўРµР»РµС„РѕРЅ:</strong> 05554441551
+			<br> <strong>Р§Р°СЃС‹ СЂР°Р±РѕС‚С‹:</strong> 10:00-22:00
+			<br> <a href="#"><strong>Р¤РѕС‚РѕРіСЂР°С„РёР№ </strong></a>| <a href="#"><strong>РћС‚Р·С‹РІС‹</strong></a>
 			</div>
 			 </td>
 		</tr>

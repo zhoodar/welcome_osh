@@ -1,22 +1,21 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
-<head>
-	<title>Добро пожаловать!</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="description" content="Город Ош, справочник по городу" />
-	<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
+<head>	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Р“РѕСЂРѕРґ РћС€, СЃРїСЂР°РІРѕС‡РЅРёРє РїРѕ РіРѕСЂРѕРґСѓ" />
+	<meta name="keywords" content="С„РѕС‚Рѕ, РћРЁ, Р·РґР°РЅРёСЏ, РјР°СЂС€СЂСѓС‚РєР°, Р’РЈР—С‹ Рё С‚.Рґ." />
 
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
-	
-	
+		
 	<script type="text/javascript"  src="js/slide.js"></script>
 	<script type="text/javascript"  src="js/jsforgal.js">   </script> 
 	<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
 	<script type="text/javascript"  src="js/jquery.mousewheel.min.js"> </script>
 	<script type="text/javascript"  src="js/slimbox2.js"> </script>
-	
+	<title>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ!</title>
 </head>
 
 <body class="fon">
@@ -26,7 +25,7 @@
 		
 
 		<div class="Menu">
-			<!-- начaло меню -->
+			<!-- РЅР°С‡aР»Рѕ РјРµРЅСЋ -->
 			<div class="header">
 				<img src="img/logo.png" style="margin-left: 20px;"/>
 			</div>
@@ -34,103 +33,93 @@
 			<br />
 			<ul id="nav">
 				<li>
-					<a href="index.php?view=index">Главная</a>
+					<a href="index.php?view=index">Р“Р»Р°РІРЅР°СЏ</a>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Отдых и развлечение</a>
+					<a class="hsubs" href="#">РћС‚РґС‹С… Рё СЂР°Р·РІР»РµС‡РµРЅРёРµ</a>
 					<ul class="subs">
+					     <?
+						$categories = get_cat();
+						foreach($categories as $item):
+						?>
 						<li>
-							<a href="index.php?view=kinoteatr">Кинотеатры</a>
+							<a href="index.php?view=cat&id=<?=$item['cat_id'];?>"> <?=$item['name'];?> </a>
 						</li>
-						<li>
-							<a href="index.php?view=guesthouse">Гостиница</a>
-						</li>
-						<li>
-							<a href="index.php?view=restoran">Ресторан</a>
-						</li>
-						<li>
-							<a href="index.php?view=nigthclub">Ночные клубы</a>
-						</li>
-						<li>
-							<a href="#">Развлекателные центры</a>
-						</li>
-					   <li>
-							<a href="index.php?view=sportclub">Спортивные клубы</a>
-						</li>
-					
+						<?endforeach;?>
+										
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Товары и услуги</a>
+					<a class="hsubs" href="#">РўРѕРІР°СЂС‹ Рё СѓСЃР»СѓРіРё</a>
 					<ul class="subs">
 						<li>
-							<a href="index.php?view=torgovye-sentr">Торговые центры</a>
+							<a href="index.php?view=torgovye-sentr">РўРѕСЂРіРѕРІС‹Рµ С†РµРЅС‚СЂС‹</a>
 						</li>
 						<li>
-							<a href="#">Спермаркеты</a>
+							<a href="#">РЎРїРµСЂРјР°СЂРєРµС‚С‹</a>
 						</li>
 						<li>
-							<a href="#">Магазины</a>
+							<a href="#">РњР°РіР°Р·РёРЅС‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=banks">Банки</a>
+							<a href="index.php?view=banks">Р‘Р°РЅРєРё</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Учебное заведения</a>
+					<a class="hsubs" href="#">РЈС‡РµР±РЅРѕРµ Р·Р°РІРµРґРµРЅРёСЏ</a>
 					<ul class="subs">
 						<li>
-							<a href="index.php?view=univers">ВУЗы</a>
+							<a href="index.php?view=univers">Р’РЈР—С‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=schools">Школы</a>
+							<a href="index.php?view=schools">РЁРєРѕР»С‹</a>
 						</li>
 						<li>
-							<a href="#">Учебные центры</a>
+							<a href="#">РЈС‡РµР±РЅС‹Рµ С†РµРЅС‚СЂС‹</a>
 						</li>
 						<li>
-							<a href="index.php?view=detskiesady">Дет сады</a>
+							<a href="index.php?view=detskiesady">Р”РµС‚ СЃР°РґС‹</a>
 						</li>
 						
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Интересное </a>
+					<a class="hsubs" href="#">РРЅС‚РµСЂРµСЃРЅРѕРµ </a>
 					<ul class="subs">
 					<li>
-						<a href="galerea.php"> Галерея </a>
+						<a href="galerea.php"> Р“Р°Р»РµСЂРµСЏ </a>
 					</li>
 					<li>
-						<a href="#"> Фото блог </a>
+						<a href="#"> Р¤РѕС‚Рѕ Р±Р»РѕРі </a>
 					</li>
 					<li>
-						<a href="index.php?view=panorama"> Панорама </a>
+						<a href="index.php?view=panorama"> РџР°РЅРѕСЂР°РјР° </a>
 					</li>
 					
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#">Объявления </a>
+					<a class="hsubs" href="#">РћР±СЉСЏРІР»РµРЅРёСЏ </a>
 					<ul class="subs">
 					<li>
-						<a href="#"> Эфективная объявления </a>
+						<a href="#"> Р­С„РµРєС‚РёРІРЅР°СЏ РѕР±СЉСЏРІР»РµРЅРёСЏ </a>
 					</li>
 					
 					
 					</ul>
 				</li>
 				<li>
-					<a class="hsubs" href="#"> Ош &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+					<a class="hsubs" href="#"> РћС€ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
 					<ul class="subs">
 					<li>
-						<a href="index.php?view=oshcity"> О городе Ош </a>
+						<a href="index.php?view=oshcity"> Рћ РіРѕСЂРѕРґРµ РћС€ </a>
 					</li>
 					<li>
-						<a href="#"> Новости </a>
+						<a href="#"> РќРѕРІРѕСЃС‚Рё </a>
 					</li>
 					<li>
-						<a href="#"> Карта города </a>
+						<a href="#"> РљР°СЂС‚Р° РіРѕСЂРѕРґР° </a>
 					</li>
 					
 					</ul>
@@ -154,11 +143,11 @@
 
 		</div>
 
-         <div class="pois">                             <!-- див поиск  -->
+         <div class="pois">                             <!-- РґРёРІ РїРѕРёСЃРє  -->
 		                                    
 		     <form name="search" action="search.php" method="post"  style="margin: 10px 20px  5px 520px;float: right;">
-                   <input type="text" name="words" size="25"  placeholder="Поиск по сайту">
-                   <input type="submit" name="bsearch" value=" поиск ">
+                   <input type="text" name="words" size="25"  placeholder="РџРѕРёСЃРє РїРѕ СЃР°Р№С‚Сѓ">
+                   <input type="submit" name="bsearch" value=" РїРѕРёСЃРє ">
              </form>
 		</div>
 
