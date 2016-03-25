@@ -1,5 +1,6 @@
 <?php
 
+include('db_funs.php');
 
 $view = empty($_GET['view']) ? 'index' : $_GET['view'];
 
