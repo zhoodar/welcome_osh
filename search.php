@@ -1,32 +1,31 @@
 <?php header('Content-type: text/html; charset=utf-8'); ?>
 <?
 function search($words) {
-$words=htmlspecialchars($words);
-if ($words === "")return false;
- $query_search = "";
-$arraywords=explode(" ", $words);
-foreach($arraywords as $key => $value) {
-if (isset($arraywords[$key - 1]))
-$query_search .= ' OR ';
-$query_search .= '`title` LIKE "%'.$value.'%" OR `descrip` LIKE "%'.$value.'%"' ; 
-} 
-$query = "SELECT * FROM search WHERE $query_search";
-$mysqli = new mysqli("localhost", "admin", "12345", "base_search");
-$result_set = $mysqli->query($query);
-$mysqli->close();
+	$words=htmlspecialchars($words);
+	if ($words === "")return false;
+	$query_search = "";
+	$arraywords=explode(" ", $words);
+	foreach($arraywords as $key => $value) {
+		if (isset($arraywords[$key - 1]))
+		$query_search .= ' OR ';
+		$query_search .= '`title` LIKE "%'.$value.'%" OR `descrip` LIKE "%'.$value.'%"' ; 
+	} 
+	$query = "SELECT * FROM search WHERE $query_search";
+	$mysqli = new mysqli("localhost", "admin", "12345", "base_search");
+	$result_set = $mysqli->query($query);
+	$mysqli->close();
 
-$i = 0;
-while($row = $result_set->fetch_assoc()) {
-$results[$i] = $row;
-$i++;
+	$i = 0;
+	while($row = $result_set->fetch_assoc()) {
+		$results[$i] = $row;
+		$i++;
 
-}
-
-return $results;
+	}
+	return $results;
 }  
 if (isset($_POST['bsearch'])) {
-$words=$_POST['words'];
-$results = search($words);
+	$words=$_POST['words'];
+	$results = search($words);
 
 }
 ?>
@@ -41,7 +40,6 @@ $results = search($words);
 
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
-	
 	
 	<script type="text/javascript"  src="js/slide.js"></script>
 	<script type="text/javascript"  src="js/jsforgal.js">   </script> 
@@ -173,11 +171,9 @@ $results = search($words);
 					
 					</ul>
 				</li>
-
 			</ul>
 			<br />
 			<br />
-		
 
 			<div class="Footer">
 				<p align="center">
@@ -187,55 +183,46 @@ $results = search($words);
 					&copy; 2014
 					<a href="#">welcomeOsh.kg</a>
 				</p>
-
 			</div>
 
 		</div>
 
-<div class="pois">                             <!-- див поиск  -->
-		                                    
+      <div class="pois">                             <!-- див поиск  -->
 		
 		<form name="search" action="search.php" method="post"  style="margin: 10px 20px  5px 520px;float: right;">
          <input type="text" name="words" size="25"  placeholder="Поиск по сайту">
         <input type="submit" name="bsearch" value=" поиск ">
        </form>
 		
-		
-		
-		</div>
+	  </div>
 
 
 	<div id="workArea">
-	
-	
-	<a href="index.php"><u>Главная </u></a> | Поиск по сайту
-<?
-if (isset($_POST['bsearch'])) {
-echo"<br> <h1 align='center'>Результаты поиска</h1> <hr size='1' color='#107280' width='800'> <br>";
-if ($words === ""){ echo "<font size='4'> Вы задали пустой запрос</font>";
- }else if(mb_strlen($words,('UTF-8')) < 2 ) { echo "<font size='4'>Слишком короткий запрос. Введите не менее 2 символа </font>" ;
-}else if (count($results) == 0) echo " <font size='4'>По вашему поиску  <b>&quot;$words&quot;</b>  ничего не найдено.</font>";
-
-else {
-echo "<font size='4'>По вашему пойску <b>&quot;$words&quot;</b> найдены эти совпадении.</font> <br><br> ";
-
-for ($i = 0; $i < count($results); $i++)
-echo $results[$i]["descrip"]." <br/>";
-
-}
-
-
-}
-?>	
-	
-	
-
-	
-	
+		<a href="index.php"><u>Главная </u></a> | Поиск по сайту
+		<?
+		if (isset($_POST['bsearch']))
+		{
+			echo"<br> <h1 align='center'>Результаты поиска</h1> <hr size='1' color='#107280' width='800'> <br>";
+			if ($words === "")
+			{
+				echo "<font size='4'> Вы задали пустой запрос</font>";
+			}
+			else if(mb_strlen($words,('UTF-8')) < 2 )
+		    {
+		    	 echo "<font size='4'>Слишком короткий запрос. Введите не менее 2 символа </font>" ;
+			}
+			else if (count($results) == 0)
+		    	echo " <font size='4'>По вашему поиску  <b>&quot;$words&quot;</b>  ничего не найдено.</font>";
+			else
+			{
+				echo "<font size='4'>По вашему пойску <b>&quot;$words&quot;</b> найдены эти совпадении.</font> <br><br> ";
+				for ($i = 0; $i < count($results); $i++)
+				echo $results[$i]["descrip"]." <br/>";
+		    }
+		}
+		?>	
 	</div>
-    
-	
-</div>
-	
+ 	
+</div>	
 </body>
 </html>
