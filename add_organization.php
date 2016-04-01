@@ -164,42 +164,124 @@
 		<div style="margin: 10px">
 			 	
 	     <h1> Добавить организацию в справочник Ош </h1>
-	 	<p align="justify" style="font-size: 16px;">
+	 	<p align="justify" style="font-size: 16px; ">
 		Добавить организацию в Наш справочник Оша очень легко. Для этого Вам потребуется заполнить правильно форму 
 		находящуюся ниже, и уже через несколько секунд, без проверки модераторов <br/>
 		 Ваша организация появится в справочнике. Так же мы оставляем за собой право на удаление Вашей организации: за неправильно 
 		 заполненную форму, использование спама, дублирование организации в одной и той же категории.
 		</p>
+		<?php
+		include('db_funs.php');
+		db_connect();
+	
+		if(isset($_POST['add_organization']))
+		{
+			
+			$name = $_POST['name'];
+			$email = $_POST['email'];
+			$adres = $_POST['adres'];
+			$telefon = $_POST['telefon'];
+			$chasi_raboti = $_POST['chasi_raboti'];
+			$url = $_POST['url'];
+			$dop_opisanie = $_POST['dop_opisanie'];
+			$cat = $_POST['cat'];
+			
+			switch($cat){
+				case('bank'):
+					$query = mysql_query("INSERT INTO banks(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('cinema'):
+					$query = mysql_query("INSERT INTO cinemas(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('hotel'):
+					$query = mysql_query("INSERT INTO hotels(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('restoran'):
+					$query = mysql_query("INSERT INTO restobars(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('night_club'):
+					$query = mysql_query("INSERT INTO nigthclubs(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('sport_club'):
+					$query = mysql_query("INSERT INTO sportclubs(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('school'):
+					$query = mysql_query("INSERT INTO schools(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('kid_garden'):
+					$query = mysql_query("INSERT INTO kid_garden(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('mall'):
+					$query = mysql_query("INSERT INTO mall(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('butik'):
+					$query = mysql_query("INSERT INTO butik(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('market'):
+					$query = mysql_query("INSERT INTO markets(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('notarius'):
+					$query = mysql_query("INSERT INTO attorney(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('univer'):
+					$query = mysql_query("INSERT INTO vuz(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;
+				case('courses'):
+					$query = mysql_query("INSERT INTO uch_center(
+			                     category,name_org, e_mail,address, telephone, work_hours,  description, url) 
+			             VALUES ('$cat', '$name', '$email', '$adres', '$telefon', '$chasi_raboti', '$dop_opisanie', '$url')        
+					");
+					break;													
+			
+			}
+			
+			mysql_close();
+		    echo "<h4 align='center' style='color:#54a7fa ' >Организация успешно добавлено!</h4>";
+		}
+	
+		?>	
 		</div>
 		
-	<?php
-	include('db_funs.php');
-	db_connect();
 	
-	if(isset($_POST['add_organization']))
-	{
-		
-		$name = strip_tags(trim($_POST['name']));
-		$email = strip_tags(trim($_POST['email']));
-		$adres = strip_tags(trim($_POST['adres']));
-		$telefon = strip_tags(trim($_POST['telefon']));
-		$chasi_raboti = strip_tags(trim($_POST['chasi_raboti']));
-		$url = strip_tags(trim($_POST['url']));
-		$dop_opisanie = strip_tags(trim($_POST['dop_opisanie']));
-		$cat = strip_tags(trim($_POST['cat']));
-		
-		mysql_query("INSERT INTO organizations(
-		                     name_org, e_mail,address, telephone, work_hours, url, description, category ) 
-		             VALUES ('$name','$email,'$adres','$telefon', '$chasi_raboti', '$url', '$dop_opisanie','$cat')        
-		            ");
-	    mysql_close();
-	    
-	    echo "Организация успешно добавлено!";
-	}
-	
-	?>	
-
-
 	<table width="790" border="0" cellspacing="0" cellpadding="0">
 	  <tr>
 		<td width="20">&nbsp;</td>
@@ -211,19 +293,20 @@
 			<label class="field ">
 				<span>Категория<em>*</em></span>
 				<select name="cat" id="cat" >
-					<option value='1'>Кинотеатры</option><br />
-					<option value='2'>Гостиницы</option><br />
-					<option value='3'>Рестораны </option><br />
-					<option value='4'>Ночные клубы</option><br />
-					<option value='5'>Спортивные клубы</option><br />
-					<option value='6'>Развлекательные центры</option><br />
-					<option value='7'>Банки</option><br />
-					<option value='8'>Школы</option><br />
-					<option value='9'>Детские сады</option><br />
-					<option value='10'>Торговые центры</option><br />
-					<option value='11'>Супермаркеты</option><br />
-					<option value='12'>Нотариус</option><br />
-					<option value='13'>ВУЗ</option><br />
+					<option value='cinema'>Кинотеатры</option><br />
+					<option value='hotel'>Гостиницы</option><br />
+					<option value='restoran'>Рестораны </option><br />
+					<option value='night_club'>Ночные клубы</option><br />
+					<option value='sport_club'>Спортивные клубы</option><br />
+					<option value='bank'>Банки</option><br />
+					<option value='school'>Школы</option><br />
+					<option value='kid_garden'>Детские сады</option><br />
+					<option value='mall'>Торговые центры</option><br />
+					<option value='butik'>Магазин(одежды,обуви)</option><br />
+					<option value='market'>Супермаркеты</option><br />
+					<option value='notarius'>Нотариус</option><br />
+					<option value='univer'>ВУЗ</option><br />
+					<option value='courses'>Учебные центры</option><br />
 				</select>
 				</label>
 
@@ -285,6 +368,7 @@
 		<td width="20">&nbsp;</td>
 	  </tr>
 	</table>
+	
 	</div>
 
 </div>	

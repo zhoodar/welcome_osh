@@ -8,7 +8,7 @@
         $db = 'base_search';
         
         $connection = mysql_connect($host, $user, $pswd);
-        mysql_query("SET NAME Utf-8");
+        mysql_query("SET NAMES tf8");
         if(!$connection || !mysql_select_db($db,$connection))
         {
             return false;
@@ -69,6 +69,7 @@
         
         return $result;
     }
+	
 	
 
 ?>
