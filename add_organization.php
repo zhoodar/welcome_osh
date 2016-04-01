@@ -10,8 +10,7 @@
 
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
-	
-	
+		
 	<script type="text/javascript"  src="js/slide.js"></script>
 	<script type="text/javascript"  src="js/jsforgal.js">   </script> 
 	<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
@@ -119,7 +118,6 @@
 						<a href="#"> Эфективная объявления </a>
 					</li>
 					
-					
 					</ul>
 				</li>
 				<li>
@@ -137,12 +135,10 @@
 					
 					</ul>
 				</li>
-
 			</ul>
 			<br />
 			<br />
 		
-
 			<div class="Footer">
 				<p align="center">
 					<br />
@@ -151,117 +147,147 @@
 					&copy; 2014
 					<a href="#">welcomeOsh.kg</a>
 				</p>
-
 			</div>
 
 		</div>
 
-<div class="pois">                             <!-- див поиск  -->
-		                                    
-		<form name="search" action="search.php" method="post"  style="margin: 10px 20px  5px 520px;float: right;">
-         <input type="text" name="words" size="25"  placeholder="Поиск по сайту">
-        <input type="submit" name="bsearch" value=" поиск ">
-       </form>
+	<div class="pois">                             <!-- див поиск  -->
+			                                    
+			<form name="search" action="search.php" method="post"  style="margin: 10px 20px  5px 520px;float: right;">
+	             <input type="text" name="words" size="25"  placeholder="Поиск по сайту">
+	        <input type="submit" name="bsearch" value=" поиск ">
+	       </form>
+			</div>
+
+	<div id="workArea">
+		
+		<div style="margin: 10px">
+			 	
+	     <h1> Добавить организацию в справочник Ош </h1>
+	 	<p align="justify" style="font-size: 16px;">
+		Добавить организацию в Наш справочник Оша очень легко. Для этого Вам потребуется заполнить правильно форму 
+		находящуюся ниже, и уже через несколько секунд, без проверки модераторов <br/>
+		 Ваша организация появится в справочнике. Так же мы оставляем за собой право на удаление Вашей организации: за неправильно 
+		 заполненную форму, использование спама, дублирование организации в одной и той же категории.
+		</p>
 		</div>
-
-<div id="workArea">
+		
+	<?php
+	include('db_funs.php');
+	db_connect();
 	
-	<div style="margin: 10px">
-		 	
-     <h1> Добавить организацию в справочник Ош </h1>
- 	<p align="justify" style="font-size: 16px;">
-	Добавить организацию в Наш справочник Оша очень легко. Для этого Вам потребуется заполнить правильно форму 
-	находящуюсяниже, и уже через несколько секунд, без проверки модераторов <br/>
-	 Ваша организация появится в справочнике.Так же мы оставляем за собой право на удаление Вашей организации: за неправильно 
-	 заполненную форму, использование спама,дублирование организации в одной и той же категории.
-	</p>
-	</div>
+	if(isset($_POST['add_organization']))
+	{
+		
+		$name = strip_tags(trim($_POST['name']));
+		$email = strip_tags(trim($_POST['email']));
+		$adres = strip_tags(trim($_POST['adres']));
+		$telefon = strip_tags(trim($_POST['telefon']));
+		$chasi_raboti = strip_tags(trim($_POST['chasi_raboti']));
+		$url = strip_tags(trim($_POST['url']));
+		$dop_opisanie = strip_tags(trim($_POST['dop_opisanie']));
+		$cat = strip_tags(trim($_POST['cat']));
+		
+		mysql_query("INSERT INTO organizations(
+		                     name_org, e_mail,address, telephone, work_hours, url, description, category ) 
+		             VALUES ('$name','$email,'$adres','$telefon', '$chasi_raboti', '$url', '$dop_opisanie','$cat')        
+		            ");
+	    mysql_close();
+	    
+	    echo "Организация успешно добавлено!";
+	}
+	
+	?>	
 
 
-<table width="790" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-	<td width="20">&nbsp;</td>
-	<td align="left" valign="top">
-	<div id="map-shadow">
-	 <div id="map-container">
-	  <form class="decorated-form" method="post" action="?action=register">
-	   <fieldset>
-		<label class="field ">
-			<span>Категория<em>*</em></span>
-			<select name="cat" id="cat" >
-				<option value='1'>Кинотеатры</option><br />
-				<option value='2'>Гостиницы</option><br />
-				<option value='3'>Рестораны </option><br />
-				<option value='4'>Ночные клубы</option><br />
-				<option value='5'>Спортивные клубы</option><br />
-				<option value='6'>Развлекательные центры</option><br />
-				<option value='7'>Банки</option><br />
-				<option value='8'>Школы</option><br />
-				<option value='9'>Детские сады</option><br />
-				<option value='10'>Торговые центры</option><br />
-				<option value='11'>Супермаркеты</option><br />
-				<option value='12'>Нотариус</option><br />
-				<option value='13'>ВУЗ</option><br />
-			</select>
+	<table width="790" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+		<td width="20">&nbsp;</td>
+		<td align="left" valign="top">
+		<div id="map-shadow">
+		 <div id="map-container">
+		  <form class="decorated-form" method="post" action="add_organization.php">
+		   <fieldset>
+			<label class="field ">
+				<span>Категория<em>*</em></span>
+				<select name="cat" id="cat" >
+					<option value='1'>Кинотеатры</option><br />
+					<option value='2'>Гостиницы</option><br />
+					<option value='3'>Рестораны </option><br />
+					<option value='4'>Ночные клубы</option><br />
+					<option value='5'>Спортивные клубы</option><br />
+					<option value='6'>Развлекательные центры</option><br />
+					<option value='7'>Банки</option><br />
+					<option value='8'>Школы</option><br />
+					<option value='9'>Детские сады</option><br />
+					<option value='10'>Торговые центры</option><br />
+					<option value='11'>Супермаркеты</option><br />
+					<option value='12'>Нотариус</option><br />
+					<option value='13'>ВУЗ</option><br />
+				</select>
+				</label>
+
+			<label class="field ">
+				<span>Название организации<em>*</em></span>
+				<input name="name" type="text" id="name" value="" maxlength="256" required >
+				<span class="hint">Например:Торговый центр Ынтымак</span>
 			</label>
-
-		<label class="field ">
-			<span>Название организации<em>*</em></span>
-			<input name="name" type="text" id="name" value="" maxlength="256" required >
-			<span class="hint">Например: Магазин детских товаров Катюша</span>
-		</label>
-		<label class="field ">
-			<span>E-mail для связи<em>*</em></span>
-			<input type="text" name="email" maxlength="100" id="id_email" value="" required>
-		</label>
-		<label class="field ">
-			<span>Адрес<em>*</em></span>
-			<input type="text" name="adres" maxlength="256" id="id_adres" value="" required>
-			<span class="hint">Например: г. Новороссийск, ул. Советов, д. 37</span>
-		</label>
-		<label class="field ">
-			<span>Телефоны<em>*</em></span>
-			<input type="text" name="telefon" maxlength="200" id="telefon" value="" required>
-			<span class="hint">Например: +7(918)666-66-66, 22-22-22</span>
-		</label>
-		<label class="field ">
-			<span>Часы работы</span>
-			<input type="text" name="chasi_raboti" maxlength="256" id="chasi_raboti" value="" >
-			<span class="hint">Например: пн-пт с 10:00 до 19:00; сб с 10:00 до 17:00</span>
-		</label>
-		<label class="field ">
-			<span>Вебсайт</span>
-			<input type="text" name="url" maxlength="256" id="id_url" value="">
-			<span class="hint">Например: www.gorod-novoross.ru</span>
-		</label>
-		<label class="field ">
-			<span>Дополнительное описание</span>
-			<textarea id="dop_opisanie" rows="10" name="dop_opisanie" cols="40"></textarea>
-		</label>
-		<strong style="color:"> &nbsp;Защита от робота (заглавными буквами)<em style="color:#FF6035">*</em></strong>
-		<table border="0" cellspacing="0" cellpadding="0">
-			<tr>
-			<td align="left" valign="middle" class="text">
-			<img src="capcha.php"  align="absmiddle" /></td>
-			<td width="10" align="left" valign="middle" class="text">&nbsp;</td>
-			<td align="left" valign="bottom" class="text"><label class="field2 ">
-			<input type="text" style="height: 30px; font-size: 16px;" name="pr" maxlength="12" id="id_name">
-			</label> </td>
-			<td align="left" valign="middle" class="text"><p class="pravila">&nbsp; </p></td>
-			</tr>
-		</table>
-		<br />
-		<div class="clear"></div>
-		<button type="reset" class="gray-button">Сбросить поля формы</button>
-		<button class="orange-button" type="submit">Добавить организацию</button>
-		<div class="clear"></div>
-	  </fieldset>
-	  </form>
-	 </div>
+			<label class="field ">
+				<span>E-mail для связи<em>*</em></span>
+				<input type="text" name="email" maxlength="100" id="id_email" value="" required>
+			</label>
+			<label class="field ">
+				<span>Адрес<em>*</em></span>
+				<input type="text" name="adres" maxlength="256" id="id_adres" value="" required>
+				<span class="hint">Например: г. Ош, ул. Раззакова, д. 37</span>
+			</label>
+			<label class="field ">
+				<span>Телефоны<em>*</em></span>
+				<input type="text" name="telefon" maxlength="200" id="telefon" value="" required>
+				<span class="hint">Например: +996(778)66-66-66, 22-22-22</span>
+			</label>
+			<label class="field ">
+				<span>Часы работы</span>
+				<input type="text" name="chasi_raboti" maxlength="256" id="chasi_raboti" value="" >
+				<span class="hint">Например: пн-пт с 10:00 до 19:00; сб с 10:00 до 17:00</span>
+			</label>
+			<label class="field ">
+				<span>Вебсайт</span>
+				<input type="text" name="url" maxlength="256" id="id_url" value="">
+				<span class="hint">Например: www.welcomeosh.kg</span>
+			</label>
+			<label class="field ">
+				<span>Дополнительное описание</span>
+				<textarea id="dop_opisanie" rows="10" name="dop_opisanie" cols="40"></textarea>
+			</label>
+			<strong style="color:"> &nbsp;Защита от робота (заглавными буквами)<em style="color:#FF6035">*</em></strong>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="left" valign="middle" class="text">
+					<img src="capcha.php"  align="absmiddle" /></td>
+					<td width="10" align="left" valign="middle" class="text">&nbsp;</td>
+					<td align="left" valign="bottom" class="text"><label class="field2 ">
+					<input type="text" style="height: 30px; font-size: 16px;" name="pr" maxlength="12" id="id_name">
+					</label> </td>
+					<td align="left" valign="middle" class="text"><p class="pravila">&nbsp; </p></td>
+				</tr>
+			</table>
+			<br />
+			<div class="clear"></div>
+			<button type="reset" class="gray-button">Сбросить поля формы</button>
+			<button class="orange-button" type="submit" name="add_organization">Добавить организацию</button>
+			<div class="clear"></div>
+		  </fieldset>
+		  </form>
+		 </div>
+		</div>
+		</td>
+		<td width="20">&nbsp;</td>
+	  </tr>
+	</table>
 	</div>
-	</td>
-	<td width="20">&nbsp;</td>
-  </tr>
-</table>
-</div>
+
+</div>	
+</body>
+</html>
 
