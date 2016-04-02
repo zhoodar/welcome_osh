@@ -38,16 +38,24 @@
 				<li>
 					<a class="hsubs" href="#">Отдых и развлечение</a>
 					<ul class="subs">
-					     <?
-						$categories = get_cat();
-						foreach($categories as $item):
-						?>
 						<li>
-							<a href="index.php?view=cat&id=<?=$item['cat_id'];?>"> <?=$item['name'];?> </a>
+							<a href="index.php?view=kinoteatr">Кинотеатры</a>
 						</li>
-						<?endforeach;?>
-										
+						<li>
+							<a href="index.php?view=guesthouse">Гостиницы</a>
+						</li>
+						<li>
+							<a href="index.php?view=restoran">Ресторан</a>
+						</li>
+						<li>
+							<a href="index.php?view=nigthclub">Ночные клубы</a>
+						</li>
+						<li>
+							<a href="index.php?view=sportclub">Спортивные клубы</a>
+						</li>
+					
 					</ul>
+
 				</li>
 				<li>
 					<a class="hsubs" href="#">Товары и услуги</a>
@@ -59,7 +67,10 @@
 							<a href="#">Спермаркеты</a>
 						</li>
 						<li>
-							<a href="#">Магазины</a>
+							<a href="#">Магазины(бутик)</a>
+						</li>
+						<li>
+							<a href="#">Нотариус</a>
 						</li>
 						<li>
 							<a href="index.php?view=banks">Банки</a>
@@ -91,24 +102,12 @@
 						<a href="galerea.php"> Галерея </a>
 					</li>
 					<li>
-						<a href="#"> Фото блог </a>
-					</li>
-					<li>
 						<a href="index.php?view=panorama"> Панорама </a>
 					</li>
 					
 					</ul>
 				</li>
-				<li>
-					<a class="hsubs" href="#">Объявления </a>
-					<ul class="subs">
-					<li>
-						<a href="#"> Эфективная объявления </a>
-					</li>
-					
-					
-					</ul>
-				</li>
+				
 				<li>
 					<a class="hsubs" href="#"> Ош &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
 					<ul class="subs">
@@ -129,7 +128,6 @@
 			<br />
 			<br />
 		
-
 			<div class="Footer">
 				<p align="center">
 					<br />
@@ -151,15 +149,8 @@
              </form>
 		</div>
 
-
 		<?php  include($_SERVER['DOCUMENT_ROOT'].'/wlcomes-osh/views/pages/'.$view.'.php ');  ?>
 
-	
-		
-		
-	
-		
-    
 	
 	</div>
 	
