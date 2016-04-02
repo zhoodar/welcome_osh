@@ -1,16 +1,27 @@
 <div id="workArea">                                    <!-- див рабочой зоны  -->
 <a href="index.php?view=index">Главная &rarr;</a> Торговые центры &rarr;
 
-<div >
-	
-<table border="0">
-   <tr>
-    <td width="160"><img src="img/torgovye-tsentry.jpg"  /></td> 
-   <td  > <h2> Торговые центры (ТЦ) ОШа - отзывы и  контакты, адреса </h2>  В данном каталоге  находятся, торговые центры ОШа. Теперь Вам не надо «путешествовать» по интернету в поисках контактной информации, отзывов, и жалоб об интересующей организации, все это теперь есть здесь.  	</td>
- </tr>
- </table>
-	
-</div>
+	<div >
+		
+		<table border="0">
+			   <tr>
+				   <td width="160"><img src="img/torgovye-tsentry.jpg"  /></td> 
+				   <td  > <h2> Торговые центры (ТЦ) ОШа - отзывы и  контакты, адреса </h2>  В данном каталоге  находятся, торговые центры ОШа. Теперь Вам не надо «путешествовать» по интернету в поисках контактной информации, отзывов, и жалоб об интересующей организации, все это теперь есть здесь. 
+				   </td>
+			 </tr>
+			 <tr>
+			    <td width="120">&nbsp;</td>
+			 	<td>
+	   				<div  align="center" >
+						<form action="add_organization.php" method="POST" class="decorated-form">
+							<input name="news" type="submit" value="Добавить свою организацию" class="orange-button">
+						</form>
+					</div>
+		        </td>
+			 </tr>
+		 </table>
+		
+	</div>
 <br />
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">

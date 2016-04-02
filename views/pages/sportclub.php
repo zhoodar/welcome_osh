@@ -1,16 +1,26 @@
 <div id="workArea">                                    <!-- див рабочой зоны  -->
 <a href="index.php?view=index">Главная &rarr;</a> Спортивные клубы &rarr;
 
-<div >
-	
-<table border="0">
-   <tr>
-    <td width="160"><img src="img/sportivnye-kluby.png"  /></td> 
-   <td  > <h2>  Спортивные клубы ОШа - отзывы и контакты, адреса, телефоны, информация </h2> 	В данном каталоге находится подробная информация о <strong>спортивных клубах города ОШа.</strong>	</td>
- </tr>
- </table>
-	
-</div>
+	<div >
+		
+		<table border="0">
+			   <tr>
+			    <td width="160"><img src="img/sportivnye-kluby.png"  /></td> 
+			   <td  > <h2>  Спортивные клубы ОШа - отзывы и контакты, адреса, телефоны, информация </h2> 	В данном каталоге находится подробная информация о <strong>спортивных клубах города ОШа.</strong>	</td>
+			 </tr>
+			 <tr>
+			    <td width="120">&nbsp;</td>
+			 	<td>
+	   				<div  align="center" >
+						<form action="add_organization.php" method="POST" class="decorated-form">
+							<input name="news" type="submit" value="Добавить свою организацию" class="orange-button">
+						</form>
+					</div>
+		        </td>
+			 </tr>
+		 </table>
+		
+	</div>
 <br />
 <div id="kino">
 	<table align="center"  cellspacing="5" bgcolor="#ced7dd">
