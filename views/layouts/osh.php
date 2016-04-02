@@ -39,11 +39,11 @@
 					<a class="hsubs" href="#">Отдых и развлечение</a>
 					<ul class="subs">
 					     <?
-						$categories = get_cat_otdyh();
+						$categories = get_cat();
 						foreach($categories as $item):
 						?>
 						<li>
-							<a href="#"> <?=$item['name'];?> </a>
+							<a href="index.php?view=cat&id=<?=$item['cat_id'];?>"> <?=$item['name'];?> </a>
 						</li>
 						<?endforeach;?>
 										
@@ -52,27 +52,35 @@
 				<li>
 					<a class="hsubs" href="#">Товары и услуги</a>
 					<ul class="subs">
-						 <?
-						$categories = get_cat_torgov();
-						foreach($categories as $item):
-						?>
 						<li>
-							<a href="#"> <?=$item['name'];?> </a>
+							<a href="index.php?view=torgovye-sentr">Торговые центры</a>
 						</li>
-						<?endforeach;?>
+						<li>
+							<a href="#">Спермаркеты</a>
+						</li>
+						<li>
+							<a href="#">Магазины</a>
+						</li>
+						<li>
+							<a href="index.php?view=banks">Банки</a>
+						</li>
 					</ul>
 				</li>
 				<li>
 					<a class="hsubs" href="#">Учебное заведения</a>
 					<ul class="subs">
-						 <?
-						$categories = get_cat_ucheb();
-						foreach($categories as $item):
-						?>
 						<li>
-							<a href="#"> <?=$item['name'];?> </a>
+							<a href="index.php?view=univers">ВУЗы</a>
 						</li>
-						<?endforeach;?>
+						<li>
+							<a href="index.php?view=schools">Школы</a>
+						</li>
+						<li>
+							<a href="#">Учебные центры</a>
+						</li>
+						<li>
+							<a href="index.php?view=detskiesady">Дет сады</a>
+						</li>
 						
 					</ul>
 				</li>
