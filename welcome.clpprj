@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="Q:\home\localhost\www\wlcomes-osh\welcome.clpprj">
 	<settings><PM_URL><![CDATA[C:\WebServers\home\localhost\www\osh\]]></PM_URL><PM_HOME_URL><![CDATA[C:\WebServers\home\localhost\www\osh\]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\WebServers\home\localhost\www\osh\js\galerea,js.js;C:\WebServers\home\localhost\www\osh\tsoshcity23.php;C:\WebServers\home\localhost\www\osh\views\pages\galerea.php;"/><added value=""/><lastopfiles>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\db_funs.php"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\add_organization.php"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\style\style.css"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\search.php"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\style\slimbox2.css"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\index.php"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\index.php"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\banks.php"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\guesthouse.php"/>
 	</lastopfiles>
 	<errors version="5.3">
@@ -16,7 +14,12 @@
 			<error val="26;22;43;22;2002;1;"/>
 		</errfile>
 		<errfile name="Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php">
-			<error val="14;4;30;4;2002;1;"/>
+			<error val="14;19;30;19;2002;1;"/>
+		</errfile>
+		<errfile name="Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php">
+			<error val="39;8;62;8;2002;1;"/>
+			<error val="12;8;23;8;2002;1;"/>
+			<error val="23;8;39;8;2002;1;"/>
 		</errfile>
 		<errfile name="Q:\home\localhost\www\wlcomes-osh\style\style.css">
 			<error val="4;182;46;182;2502;1;"/>
@@ -28,7 +31,7 @@
 	</errors>
 	<codestructure version="5.8">
 		<phptree>
-			<treenode node="comments/comment.php;PHP:PHP Include;Q:\home\localhost\www\osh\views\pages\tsoshcity.php;f10;194;30;194;;Q:\home\localhost\www\osh\tsoshcity23.php;f10;195;30;195;;Q:\home\localhost\www\wlcomes-osh\views\pages\tsoshcity.php;f10;194;30;194;;Q:\home\localhost\www\wlcomes-osh\tsoshcity23.php;f10;195;30;195;;Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php;f12;22;32;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="comments/comment.php;PHP:PHP Include;Q:\home\localhost\www\osh\views\pages\tsoshcity.php;f10;194;30;194;;Q:\home\localhost\www\osh\tsoshcity23.php;f10;195;30;195;;Q:\home\localhost\www\wlcomes-osh\views\pages\tsoshcity.php;f10;194;30;194;;Q:\home\localhost\www\wlcomes-osh\tsoshcity23.php;f10;195;30;195;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="comments/izumcomment.php;PHP:PHP Include;Q:\home\localhost\www\osh\izum.php;f10;196;34;196;;Q:\home\localhost\www\wlcomes-osh\izum.php;f10;196;34;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -40,7 +43,7 @@
 			</treenode>
 			<treenode node="comments/oshtucomment.php;PHP:PHP Include;Q:\home\localhost\www\osh\oshtu.php;f10;196;35;196;;Q:\home\localhost\www\wlcomes-osh\oshtu.php;f10;196;35;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="db_funs.php;PHP:PHP Include;Q:\home\localhost\www\wlcomes-osh\index.php;f9;2;20;2;;Codelobster2.php;f11;173;22;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="db_funs.php;PHP:PHP Include;Codelobster2.php;f11;173;22;173;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f11;173;22;173;;Q:\home\localhost\www\wlcomes-osh\index.php;f9;2;20;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="db_connect;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f3;2;5;16;;;;vpos;;v;;r;;d4,3;;b0,0;;m">
 				<treenode node="connection;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;9;19;9;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
@@ -54,97 +57,211 @@
 				<treenode node="user;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;5;13;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="db_result_to_array;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;18;5;30;;;;vpos;;v;;r;;d4,19;;b0,0;;mresult;;p">
-				<treenode node="count;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;22;14;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="db_result_to_array;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;18;5;28;;;;vpos;;v;;r;;d4,19;;b0,0;;mresult;;p">
+				<treenode node="count;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;21;14;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="res_array;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;20;18;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f29;18;36;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="row;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f14;24;18;24;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="row;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f14;22;18;22;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="get_cat_otdyh;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;33;5;44;;;;vpos;;v;;r;;d4,34;;b0,0;;m">
-				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;37;14;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="get_banks;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;49;5;56;;;;vpos;;v;;r;;d4,50;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;52;14;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;39;15;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-			</treenode>
-			<treenode node="get_cat_torgov;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;46;5;57;;;;vpos;;v;;r;;d4,47;;b0,0;;m">
-				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;50;14;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;52;15;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;53;15;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="get_cat_ucheb;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;59;5;70;;;;vpos;;v;;r;;d4,60;;b0,0;;m">
-				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;63;14;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="get_butik;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;58;5;65;;;;vpos;;v;;r;;d4,59;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;61;14;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;65;15;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;62;15;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_cinema;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;67;5;74;;;;vpos;;v;;r;;d4,68;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;70;14;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;71;15;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_hotel;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f1;76;5;83;;;;vpos;;v;;r;;d4,77;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;79;14;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;80;15;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_kid_garden;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f4;85;5;92;;;;vpos;;v;;r;;d4,86;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;88;14;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;89;15;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_mall;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;94;5;101;;;;vpos;;v;;r;;d4,95;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;97;14;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;98;15;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_market;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;103;5;110;;;;vpos;;v;;r;;d4,104;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;106;14;106;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;107;15;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_nigth_club;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f5;112;5;119;;;;vpos;;v;;r;;d4,113;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;115;14;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;116;15;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_organ_bank;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f4;30;2;38;;;;vpos;;v;;r;;d4,31;;b0,0;;mid;;ptable;;p">
+				<treenode node="id;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f28;30;31;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;34;8;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;35;9;35;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="row;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;36;6;36;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tabel;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f16;33;22;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tabel_name;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f28;34;39;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="table;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f32;30;38;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="table_name;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;33;13;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_organ_hotel;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;40;2;47;;;;vpos;;v;;r;;d4,41;;b0,0;;mid;;p">
+				<treenode node="id;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f27;40;30;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;43;8;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;44;9;44;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="row;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f2;45;6;45;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_restobar;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f4;121;5;128;;;;vpos;;v;;r;;d4,122;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;124;14;124;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;125;15;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_school;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f4;130;5;137;;;;vpos;;v;;r;;d4,131;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;133;14;133;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;134;15;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_sportclub;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f5;139;5;146;;;;vpos;;v;;r;;d4,140;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;142;14;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;143;15;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_uch_center;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f5;148;5;155;;;;vpos;;v;;r;;d4,149;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;151;14;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;152;15;152;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="get_vuz;PHP:Function Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f5;157;5;164;;;;vpos;;v;;r;;d4,158;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;160;14;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="result;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\db_funs.php;f8;161;15;161;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="search;PHP:Function Name;Q:\home\localhost\www\osh\search.php;f0;2;1;25;;Q:\home\localhost\www\wlcomes-osh\search.php;f0;2;1;24;;;;vpos;;v;;r;;d24,2;;b0,0;;mwords;;p">
-				<treenode node="arraywords;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;6;12;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="arraywords;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;6;12;6;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;6;12;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="i;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;17;3;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="i;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;17;3;17;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;17;3;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="key;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f24;7;28;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f24;7;28;7;;Q:\home\localhost\www\wlcomes-osh\search.php;f24;7;28;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="mysqli;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;13;8;13;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="mysqli;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;13;8;13;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;13;8;13;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="query;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;12;7;12;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="query_search;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;5;14;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="query_search;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;5;14;5;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;5;14;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="result_set;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;14;12;14;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="result_set;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f1;14;12;14;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;14;12;14;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="results;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f2;19;10;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="results;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f2;19;10;19;;Q:\home\localhost\www\wlcomes-osh\search.php;f2;19;10;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="row;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f7;18;11;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="row;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f7;18;11;18;;Q:\home\localhost\www\wlcomes-osh\search.php;f7;18;11;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="value;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f32;7;38;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="value;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\search.php;f32;7;38;7;;Q:\home\localhost\www\wlcomes-osh\search.php;f32;7;38;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="words;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f16;2;22;2;;Q:\home\localhost\www\wlcomes-osh\search.php;f16;2;22;2;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="words;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f16;2;22;2;;Q:\home\localhost\www\wlcomes-osh\search.php;f16;2;22;2;;Q:\home\localhost\www\wlcomes-osh\search.php;f16;2;22;2;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="_GET;PHP:Var Name;Q:\home\localhost\www\osh\comments\oshtucomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\oshsucomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\oshcitycomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\nurucoment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\izumcomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\source.php;f3;2;8;2;;Q:\home\localhost\www\osh\index.php;f14;3;19;3;;Q:\home\localhost\www\wlcomes-osh\comments\oshtucomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\oshsucomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\oshcitycomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\nurucoment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\izumcomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\source.php;f3;2;8;2;;Q:\home\localhost\www\wlcomes-osh\index.php;f14;4;19;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_GET;PHP:Var Name;Q:\home\localhost\www\osh\comments\oshtucomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\oshsucomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\oshcitycomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\nurucoment.php;f3;8;8;8;;Q:\home\localhost\www\osh\comments\izumcomment.php;f3;8;8;8;;Q:\home\localhost\www\osh\source.php;f3;2;8;2;;Q:\home\localhost\www\osh\index.php;f14;3;19;3;;Q:\home\localhost\www\wlcomes-osh\comments\oshtucomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\oshsucomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\oshcitycomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\nurucoment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\comments\izumcomment.php;f3;8;8;8;;Q:\home\localhost\www\wlcomes-osh\source.php;f3;2;8;2;;Q:\home\localhost\www\wlcomes-osh\index.php;f14;4;19;4;;Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php;f13;1;18;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_POST;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f10;26;16;26;;Q:\home\localhost\www\wlcomes-osh\search.php;f10;25;16;25;;Codelobster2.php;f11;176;17;176;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_POST;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f10;26;16;26;;Codelobster2.php;f11;176;17;176;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f11;176;17;176;;Q:\home\localhost\www\wlcomes-osh\search.php;f10;25;16;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_SERVER;PHP:Var Name;Q:\home\localhost\www\osh\index.php;f8;6;16;6;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f17;153;25;153;;Q:\home\localhost\www\osh\views\layouts\osh.php;f17;165;25;165;;Q:\home\localhost\www\wlcomes-osh\index.php;f8;7;16;7;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php;f17;146;25;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_SERVER;PHP:Var Name;Q:\home\localhost\www\osh\index.php;f8;6;16;6;;Q:\home\localhost\www\osh\views\layouts\osh.php;f17;165;25;165;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f17;153;25;153;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php;f17;151;25;151;;Q:\home\localhost\www\wlcomes-osh\index.php;f8;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="adres;PHP:Var Name;Codelobster2.php;f3;181;9;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="adres;PHP:Var Name;Codelobster2.php;f3;181;9;181;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;181;9;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="cat;PHP:Var Name;Codelobster2.php;f3;186;7;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="banks;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\sportclub.php;f3;30;9;30;;Q:\home\localhost\www\wlcomes-osh\views\pages\banks.php;f3;34;9;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="categories;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f6;40;17;40;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php;f6;41;17;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="cat;PHP:Var Name;Codelobster2.php;f3;186;7;186;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;186;7;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="chasi_raboti;PHP:Var Name;Codelobster2.php;f3;183;16;183;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="categories;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f6;40;17;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="dop_opisanie;PHP:Var Name;Codelobster2.php;f3;185;16;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="category;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php;f1;1;10;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="email;PHP:Var Name;Codelobster2.php;f3;180;9;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="chasi_raboti;PHP:Var Name;Codelobster2.php;f3;183;16;183;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;183;16;183;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="cinemas;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\kinoteatr.php;f3;33;11;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="dop_opisanie;PHP:Var Name;Codelobster2.php;f3;185;16;185;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;185;16;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="email;PHP:Var Name;Codelobster2.php;f3;180;9;180;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;180;9;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="fp;PHP:Var Name;Q:\home\localhost\www\osh\comments\oshtucomment.php;f0;21;3;21;;Q:\home\localhost\www\osh\comments\oshsucomment.php;f0;21;3;21;;Q:\home\localhost\www\osh\comments\oshcitycomment.php;f0;21;3;21;;Q:\home\localhost\www\osh\comments\nurucoment.php;f0;21;3;21;;Q:\home\localhost\www\osh\comments\izumcomment.php;f0;21;3;21;;Q:\home\localhost\www\osh\source.php;f0;17;3;17;;Q:\home\localhost\www\wlcomes-osh\comments\oshtucomment.php;f0;21;3;21;;Q:\home\localhost\www\wlcomes-osh\comments\oshsucomment.php;f0;21;3;21;;Q:\home\localhost\www\wlcomes-osh\comments\oshcitycomment.php;f0;21;3;21;;Q:\home\localhost\www\wlcomes-osh\comments\nurucoment.php;f0;21;3;21;;Q:\home\localhost\www\wlcomes-osh\comments\izumcomment.php;f0;21;3;21;;Q:\home\localhost\www\wlcomes-osh\source.php;f0;17;3;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="hotel;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\guesthouse.php;f3;28;9;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="i;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f5;221;7;221;;Q:\home\localhost\www\wlcomes-osh\search.php;f9;218;11;218;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="item;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f29;41;34;41;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php;f29;42;34;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="id;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php;f1;2;4;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="item;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f29;41;34;41;;Q:\home\localhost\www\wlcomes-osh\views\pages\detskiesady.php;f27;32;32;32;;Q:\home\localhost\www\wlcomes-osh\views\pages\kinoteatr.php;f23;34;28;34;;Q:\home\localhost\www\wlcomes-osh\views\pages\nigthclub.php;f26;31;31;31;;Q:\home\localhost\www\wlcomes-osh\views\pages\restoran.php;f24;32;29;32;;Q:\home\localhost\www\wlcomes-osh\views\pages\schools.php;f22;31;27;31;;Q:\home\localhost\www\wlcomes-osh\views\pages\univers.php;f20;34;25;34;;Q:\home\localhost\www\wlcomes-osh\views\pages\torgovye-sentr.php;f21;32;26;32;;Q:\home\localhost\www\wlcomes-osh\views\pages\sportclub.php;f21;31;26;31;;Q:\home\localhost\www\wlcomes-osh\views\pages\banks.php;f21;35;26;35;;Q:\home\localhost\www\wlcomes-osh\views\pages\guesthouse.php;f21;29;26;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="kid_garden;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\detskiesady.php;f4;31;15;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mall;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\torgovye-sentr.php;f4;31;9;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="mytext;PHP:Var Name;Q:\home\localhost\www\osh\comments\oshtucomment.php;f0;26;7;26;;Q:\home\localhost\www\osh\comments\oshsucomment.php;f0;26;7;26;;Q:\home\localhost\www\osh\comments\oshcitycomment.php;f0;26;7;26;;Q:\home\localhost\www\osh\comments\nurucoment.php;f0;26;7;26;;Q:\home\localhost\www\osh\comments\izumcomment.php;f0;26;7;26;;Q:\home\localhost\www\osh\source.php;f0;22;7;22;;Q:\home\localhost\www\wlcomes-osh\comments\oshtucomment.php;f0;26;7;26;;Q:\home\localhost\www\wlcomes-osh\comments\oshsucomment.php;f0;26;7;26;;Q:\home\localhost\www\wlcomes-osh\comments\oshcitycomment.php;f0;26;7;26;;Q:\home\localhost\www\wlcomes-osh\comments\nurucoment.php;f0;26;7;26;;Q:\home\localhost\www\wlcomes-osh\comments\izumcomment.php;f0;26;7;26;;Q:\home\localhost\www\wlcomes-osh\source.php;f0;22;7;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="name;PHP:Var Name;Codelobster2.php;f3;179;8;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="name;PHP:Var Name;Codelobster2.php;f3;179;8;179;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;179;8;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="query;PHP:Var Name;Codelobster2.php;f5;190;11;190;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="nigthclub;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\nigthclub.php;f4;30;14;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="organization;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php;f4;6;17;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="query;PHP:Var Name;Codelobster2.php;f5;190;11;190;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f5;190;11;190;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="restoran;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\restoran.php;f3;31;12;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="results;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f0;28;8;28;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;27;9;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="telefon;PHP:Var Name;Codelobster2.php;f3;182;11;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="school;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\schools.php;f3;30;10;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="table;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php;f4;5;10;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="telefon;PHP:Var Name;Codelobster2.php;f3;182;11;182;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;182;11;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="test;PHP:Var Name;Q:\home\localhost\www\osh\comments\oshtucomment.php;f0;49;5;49;;Q:\home\localhost\www\osh\comments\oshsucomment.php;f0;49;5;49;;Q:\home\localhost\www\osh\comments\oshcitycomment.php;f0;49;5;49;;Q:\home\localhost\www\osh\comments\nurucoment.php;f0;49;5;49;;Q:\home\localhost\www\osh\comments\izumcomment.php;f0;49;5;49;;Q:\home\localhost\www\osh\source.php;f0;45;5;45;;Q:\home\localhost\www\wlcomes-osh\comments\oshtucomment.php;f0;49;5;49;;Q:\home\localhost\www\wlcomes-osh\comments\oshsucomment.php;f0;49;5;49;;Q:\home\localhost\www\wlcomes-osh\comments\oshcitycomment.php;f0;49;5;49;;Q:\home\localhost\www\wlcomes-osh\comments\nurucoment.php;f0;49;5;49;;Q:\home\localhost\www\wlcomes-osh\comments\izumcomment.php;f0;49;5;49;;Q:\home\localhost\www\wlcomes-osh\source.php;f0;45;5;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="url;PHP:Var Name;Codelobster2.php;f3;184;7;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="url;PHP:Var Name;Codelobster2.php;f3;184;7;184;;Q:\home\localhost\www\wlcomes-osh\add_organization.php;f3;184;7;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="view;PHP:Var Name;Q:\home\localhost\www\osh\index.php;f0;3;5;3;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f71;153;76;153;;Q:\home\localhost\www\osh\views\layouts\osh.php;f63;165;68;165;;Q:\home\localhost\www\wlcomes-osh\index.php;f0;4;5;4;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php;f71;146;76;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="view;PHP:Var Name;Q:\home\localhost\www\osh\index.php;f0;3;5;3;;Q:\home\localhost\www\osh\views\layouts\osh.php;f63;165;68;165;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php;f71;153;76;153;;Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php;f71;151;76;151;;Q:\home\localhost\www\wlcomes-osh\index.php;f0;4;5;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="vuz;PHP:Var Name;Q:\home\localhost\www\wlcomes-osh\views\pages\univers.php;f4;33;8;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="words;PHP:Var Name;Q:\home\localhost\www\osh\search.php;f0;27;6;27;;Q:\home\localhost\www\wlcomes-osh\search.php;f1;26;7;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -7806,25 +7923,25 @@
 	<todoblock>
 	</todoblock>
 	<filescache>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\univers.php" crc="-916698532"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\univers.php" crc="328901299"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\tsoshcity.php" crc="-1016114749"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\torgovye-sentr.php" crc="-1156874690"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\sportclub.php" crc="-1419080242"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\schools.php" crc="213311049"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\restoran.php" crc="578895089"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\torgovye-sentr.php" crc="1703003989"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\sportclub.php" crc="2140371948"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\schools.php" crc="-1625332092"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\restoran.php" crc="-376398215"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\panorama.php" crc="-1157171520"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\oshtu.php" crc="-417920121"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\oshcity.php" crc="-1414855610"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php" crc="1001884253"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\nigthclub.php" crc="1313093350"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\kinoteatr.php" crc="609382259"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\organization.php" crc="1879548679"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\nigthclub.php" crc="-1144668181"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\kinoteatr.php" crc="239588415"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\index.php" crc="-1400432312"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\guesthouse.php" crc="1097062327"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\guesthouse.php" crc="-140092151"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\galerea.php" crc="446099165"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\detskiesady.php" crc="348161156"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\banks.php" crc="-759150525"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\detskiesady.php" crc="570523768"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\pages\banks.php" crc="-1228779551"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\views\layouts\osh1.php" crc="31661313"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php" crc="-1976984721"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\views\layouts\osh.php" crc="1813223525"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\style\style.css" crc="-2048225637"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\style\slimbox2.css" crc="-1119294107"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\panorama\swfobject.js" crc="-1054864735"/>
@@ -7855,6 +7972,7 @@
 		<file name="Q:\home\localhost\www\wlcomes-osh\izum.php" crc="-1378767036"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\index.php" crc="1638499829"/>
 		<file name="Q:\home\localhost\www\wlcomes-osh\galerea.php" crc="-1529120692"/>
-		<file name="Q:\home\localhost\www\wlcomes-osh\db_funs.php" crc="1195124194"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\db_funs.php" crc="-1030388391"/>
+		<file name="Q:\home\localhost\www\wlcomes-osh\add_organization.php" crc="698138401"/>
 	</filescache>
 </project>
