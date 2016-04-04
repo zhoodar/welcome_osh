@@ -298,7 +298,7 @@
 					<option value='restoran'>Рестораны </option><br />
 					<option value='night_club'>Ночные клубы</option><br />
 					<option value='sport_club'>Спортивные клубы</option><br />
-					<option value='bank'>Банки</option><br />
+					<option value='banks'>Банки</option><br />
 					<option value='school'>Школы</option><br />
 					<option value='kid_garden'>Детские сады</option><br />
 					<option value='mall'>Торговые центры</option><br />

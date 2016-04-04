@@ -36,7 +36,7 @@
 			<tr>
 				<td>
 	             <div style="padding: 5px; border-radius: 4px 4px 4px 4px; background-color: #FFFFFF;" >
-					<a href="#"><strong><?=$item['name_org']?></strong> </a> <br> <strong>Адрес:</strong> <?=$item['address']?> 
+					<a href="index.php?view=organization&c=<?=$item['category']?>&id=<?=$item['id']?>"><strong><?=$item['name_org']?></strong> </a> <br> <strong>Адрес:</strong> <?=$item['address']?> 
 					<br> <strong>Телефон:</strong> <?=$item['telephone']?>
 					<br> <strong>Часы работы:</strong> <?=$item['work_hours']?>
 					<br> <a href="#"><strong>Фотографий </strong></a> |<a href="#"><strong>Отзывы</strong></a>

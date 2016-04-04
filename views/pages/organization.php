@@ -49,7 +49,7 @@
 		<a href="index.php?view=index">Главная</a>&rarr;<a href="#">Организации</a> &rarr;
 		
 		<p> <h2>  <?=$organization['name_org']?>. Отзывы, жалобы, контакты</h2> </p>
-		<hr size="6" color="#468bea" />
+		<hr size="6"  class="blue-block" color="#3379ee" />
 		
 		<div>
 		    <strong>Адрес:</strong> <?=$organization['address']?>
