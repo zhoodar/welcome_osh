@@ -1,10 +1,8 @@
 <?php
+	include('db_funs.php');
 
-include('db_funs.php');
+	$view = empty($_GET['view']) ? 'index' : $_GET['view'];
 
-$view = empty($_GET['view']) ? 'index' : $_GET['view'];
-
-
-include($_SERVER['DOCUMENT_ROOT'].'/wlcomes-osh/views/layouts/osh.php');
+	include($_SERVER['DOCUMENT_ROOT'].'/wlcomes-osh/views/layouts/osh.php');
 
 ?>

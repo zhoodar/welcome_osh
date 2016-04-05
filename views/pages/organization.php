@@ -46,28 +46,20 @@
 
 ?>	
 <div id="workArea">     	<!-- див рабочой зоны  -->
-		<a href="index.php?view=index">Главная</a>&rarr;<a href="#">Организации</a> &rarr;
-		
-		<p> <h2>  <?=$organization['name_org']?>. Отзывы, жалобы, контакты</h2> </p>
-		<hr size="6"  class="blue-block" color="#3379ee" />
-		
-		<div>
-		    <strong>Адрес:</strong> <?=$organization['address']?>
-			<br> <strong>Телефон:</strong> <?=$organization['telephone']?>
-			<br> <strong>E-mail:</strong> <?=$organization['e_mail']?>
-			<br> <strong>Часы работы:</strong> <?=$organization['work_hours']?>
-			<br> <a href="http://<?=$organization['url']?>">Переийти в сайт организации</a>
-		</div>
-
-	    <br/><br/>
-		
-		<div>
-			<p >  <strong>Место нахождение на карте</strong> </p>
-			<img border="3" style="border-color: #adafb4;" src="img/map.png"/>
-		</div>
-	   <br/>
-	
-		
-
-	
+	 <a href="index.php?view=index">Главная</a>&rarr;<a href="#">Организации</a> &rarr;
+	 <p> <h2>  <?=$organization['name_org']?>. Отзывы, жалобы, контакты</h2> </p>
+	 <hr size="6"  class="blue-block"/>	
+	 <div >
+		  <strong>Адрес:</strong> <?=$organization['address']?>
+		  <br> <strong>Телефон:</strong> <?=$organization['telephone']?>
+		  <br> <strong>E-mail:</strong> <?=$organization['e_mail']?>
+		  <br> <strong>Часы работы:</strong> <?=$organization['work_hours']?>
+		  <br> <a href="http://<?=$organization['url']?>">Переийти в сайт организации</a>  
+	 </div>
+	 <br/><br/>
+	 <div>
+		 <p>  <strong>Место нахождение на карте</strong> </p>
+		 <img border="3" style="border-color: #adafb4;" src="img/map.png"/>
+	 </div>
+	 <br/>			
 </div>
