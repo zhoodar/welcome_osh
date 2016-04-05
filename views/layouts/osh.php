@@ -64,7 +64,7 @@
 							<a href="index.php?view=torgovye-sentr">Торговые центры</a>
 						</li>
 						<li>
-							<a href="#">Спермаркеты</a>
+							<a href="#">Супермаркеты</a>
 						</li>
 						<li>
 							<a href="#">Магазины(бутик)</a>
@@ -149,7 +149,7 @@
              </form>
 		</div>
 
-		<?php  include($_SERVER['DOCUMENT_ROOT'].'/wlcomes-osh/views/pages/'.$view.'.php ');  ?>
+		<?php  include($_SERVER['DOCUMENT_ROOT'].'/welcome_osh/views/pages/'.$view.'.php ');  ?>
 
 	
 	</div>
