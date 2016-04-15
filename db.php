@@ -89,7 +89,7 @@ if ($acom=="dobcom")
 	<a class='sm' target=_blank href=http://www.skyscript.ru>Скрипт разработан SkyScript</a>
 	</center>
 	</body></html>";
-	mail($adm_email, "Новый комментарий", $msg, $headers);
+	mail("admin@mail.ru", "Новый комментарий", $msg, $headers);
 	$nopage = globper('nopage');
 	$ncom = globper('ncom');
 	if ($nopage==1 && $page > 1) {header('Location: http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'&page=1#ncom');}

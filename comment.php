@@ -4,7 +4,7 @@
 	$skyrow = mysql_fetch_array($skybase);
 	$posts = $skyrow[0]; //в переменной $posts храниться количество комментариев в теме $com  
 ?>
-<table width="<? echo $com_width; ?>" border="0" bgcolor="#fbfbfb" style="border-bottom:1px solid #999999;" >
+<table width="<? echo $com_width; ?>" border="0" bgcolor="#ced7dd" style="border-bottom:1px solid #999999; padding:10px;border-radius: 5px 5px 0 0  ; 	 " >
 	<tr>
 		<td height="30">
 		<?
@@ -17,12 +17,12 @@
 	</tr>
 </table>
 <?
-echo '<div id="komm" style="display:none; padding:10px; background-color:#fbfbfb; width:'.($com_width-20).'px;" align="left">
+echo '<div id="komm" style="display:none; padding:10px; background-color:#ced7dd; width:'.($com_width-20).'px;" align="left">
 <form action="http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'" method="post" name="Send">';
 if (!empty($com_kto)) { echo '<span style="cursor:pointer;" title="изменить имя/e-mail" id="redname" class="zag">'.$com_kto.'</span>'; $nev=' class="nevid"'; }
 else {$nev='';}
-echo '<div id="nname"'.$nev.'><input class="validate[required,length[0,100]] text-input" type="text" style="width:210px;" value="'.@$com_kto.'" name="com_kto"> — Имя <input class="validate[custom[email]] text-input" value="'.@$com_email.'" type="text" style="width:210px; margin-left:50px;" name="com_email"> — Почта</div>';
-echo '<textarea class="validate[required,length[0,'.$com_dlina.']] text-input" onchange="ChooseLen()" onkeyup="ChooseLen()" onkeydown="ChooseLen()" onkeypress="ChooseLen()" name="com_text" style="width:100%; height:80px; margin:9px 0 9px 0; padding:3px;"></textarea>
+echo '<div id="nname"'.$nev.'><input class="validate[required,length[0,100]] text-input" type="text" style="width:210px;" value="'.@$com_kto.'" name="com_kto"> Имя <input class="validate[custom[email]] text-input" value="'.@$com_email.'" type="text" style="width:210px; margin-left:50px;" name="com_email"> Почта</div>';
+echo '<textarea class="validate[required,length[0,'.$com_dlina.']] text-input" onchange="ChooseLen()" onkeyup="ChooseLen()" onkeydown="ChooseLen()" onkeypress="ChooseLen()" name="com_text" style="width:'.($com_width-30).'px; height:80px; margin:9px 0 9px 0; padding:3px;"></textarea>
 <input type="hidden" name="nopage" value="1">
 <input type="hidden" name="com" value="'.$com.'">
 <input type="hidden" name="acom" value="dobcom">
@@ -31,6 +31,10 @@ echo '<textarea class="validate[required,length[0,'.$com_dlina.']] text-input" o
 </form>
 </div>';
 $com_papa=0;
+?>
+
+
+<?
 //вывод комментариев
 function viv_com($skyrowcom,$com,$com_width,$com_dlina,$prava) //выборка из бд, к чему комментарии, ширина комментария
 {
@@ -44,7 +48,7 @@ function viv_com($skyrowcom,$com,$com_width,$com_dlina,$prava) //выборка 
 	$seg=russian_date('j F Y',$vrem);
 	if ($data == $seg) { $data='Сегодня'; }
 	$chas=russian_date('G:i',$skyrowcom['com_kogda']);
-	echo '</td><td align="right" class="data" style="padding:0; margin:0;" valign="bottom"><div style="padding:15px 0 0 0;">';
+	echo '</td><td align="right" class="data" style="padding:0; margin:0;" valign="bottom"><div style="padding:15px 0 0 0;margin-right: 10px;">';
 	$idred=''; 
 	echo ''.$data.', '.$chas.'</div></td></tr>
 	<tr><td colspan="2"><div '.$idred.' style="width:'.$com_width.'px; padding:10px 0 0 0; word-wrap:break-word;" align="left">'.$skyrowcom['com_text'].'</div>';
@@ -57,18 +61,21 @@ function viv_com($skyrowcom,$com,$com_width,$com_dlina,$prava) //выборка 
 	}
 	//-->
 	</script>
-	<div align="right" style="border-bottom:1px solid #d1d2d6; background-color: #<? echo $bgadm; ?>; margin-left:<? echo $ot; ?>px;">
-	<a style="cursor:pointer;" class="sm2" onClick="showlayer('komm<? echo $skyrowcom['com_id']; ?>')">ответить</a></div>
+	
+		<div align="right" style="border-bottom:1px solid #d1d2d6; background-color: #<? echo $bgadm; ?>; margin-left:<? echo $ot; ?>px;margin-right: 10px;">
+	<a style="cursor:pointer;" class="sm2" onClick="showlayer('komm<? echo $skyrowcom['com_id']; ?>')">ответить</a>
+		</div>
+		
 	<?
 	echo '</td></tr></table>';
-	echo '<div id="komm'.$skyrowcom['com_id'].'" style="display:none; width:'.($com_width-20).'px; padding:10px; background-color:#fbfbfb;" align="left">
+	echo '<div id="komm'.$skyrowcom['com_id'].'" style="display:none; width:'.($com_width-20).'px; padding:10px; background-color:#ced7dd;" align="left">
 	<form action="http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'" method="post" name="send'.$skyrowcom['com_id'].'">';
 	if (!empty($com_kto)) 
 	{
 		 echo '<span style="cursor:pointer;" title="изменить имя/e-mail" id="redname'.$skyrowcom['com_id'].'" class="zag">'.$com_kto.'</span>'; $nev=' class="nevid"'; 
 	}
 	else {$nev='';}
-	echo '<div id="nname'.$skyrowcom['com_id'].'"'.$nev.'><input class="validate[required,length[0,100]] text-input" type="text" style="width:170px;" value="'.@$com_kto.'" name="com_kto"> — Имя <input class="validate[custom[email]] text-input" value="'.@$com_email.'" type="text" style="width:170px; margin-left:30px;" name="com_email"> — Почта</div>';
+	echo '<div id="nname'.$skyrowcom['com_id'].'"'.$nev.'><input class="validate[required,length[0,100]] text-input" type="text" style="width:170px;" value="'.@$com_kto.'" name="com_kto"> Имя <input class="validate[custom[email]] text-input" value="'.@$com_email.'" type="text" style="width:170px; margin-left:30px;" name="com_email"> Почта</div>';
 	echo '<textarea class="validate[required,length[0,'.$com_dlina.']] text-input" onchange="chooselen'.$skyrowcom['com_id'].'()" onkeyup="chooselen'.$skyrowcom['com_id'].'()" onkeydown="chooselen'.$skyrowcom['com_id'].'()" onkeypress="chooselen'.$skyrowcom['com_id'].'()" name="com_text" style="width:'.($com_width-30).'px; height:80px; margin:9px 0 9px 0; padding:3px;"></textarea>
 	<input type="hidden" name="page" value="'.$page.'">
 	<input type="hidden" name="com_papa" value="'.$skyrowcom['com_id'].'">
@@ -128,7 +135,7 @@ function zapros($com,$com_papa,$start,$num)
 		}
 	}
 	//показываем
-	echo '<div align="right" style="width:'.$com_width.'px;">';
+	echo '<div align="right" style="width:'.$com_width.'px;" >';
 	pokaz_com($com,$com_width+20,$s,$com_dlina,$start,$num,$prava);
 	// Вывод меню если страниц больше одной
 	if ($total > 1)

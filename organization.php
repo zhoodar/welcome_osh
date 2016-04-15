@@ -1,5 +1,11 @@
 <?php header('Content-type: text/html; charset=utf-8'); ?>
-<?include('db_funs.php');?>
+<?include('db_funs.php');
+
+session_start();
+include ("db.php");
+?>
+
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
@@ -10,12 +16,13 @@
 
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
 		<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
-			
+		<link href="style/comment_style.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript"  src="js/slide.js"></script>
 		<script type="text/javascript"  src="js/jsforgal.js">   </script> 
-		<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
-		<script type="text/javascript"  src="js/jquery.mousewheel.min.js"> </script>
-		<script type="text/javascript"  src="js/slimbox2.js"> </script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.validationengine.js"></script>
+		<script type="text/javascript" src="js/skycom.js"></script>
+		
 		<title>Добро пожаловать!</title>
 	</head>
 
@@ -208,12 +215,63 @@
 				  <br> <strong>Часы работы:</strong> <?=$organization['work_hours']?>
 				  <br> <a href="http://<?=$organization['url']?>">Переийти в сайт организации</a>  
 			 </div>
-			 <br/><br/>
+			 <br/>
 			 <div>
 				 <p>  <strong>Место нахождение на карте</strong> </p>
 				 <img border="3" style="border-color: #adafb4;" src="img/map.png"/>
 			 </div>
-			 <br/>			
+			 <br/>	
+			<div align="center">
+			<?
+			     $cat = $_GET['c'];
+			     $idsi = $_GET['id'];
+			     switch($cat){
+				 	case('banks'):
+				 	  $com = 50+$idsi;
+				 	  break;	
+				 	case('hotel'):
+				 	  $com = 100+$idsi;
+				 	  break;	
+				 	case('kid_garden'):
+				 	  $com = 150+$idsi;
+				 	  break;
+				 	case('cinema'):
+				 	  $com = 200+$idsi;
+				 	  break;
+				 	case('mall'):
+				 	  $com = 250+$idsi;
+				 	  break;
+				 	case('school'):
+				 	  $com = 300+$idsi;
+				 	  break;
+				 	case('restoran'):
+				 	  $com = 350+$idsi;
+				 	  break;
+				 	case('night_club'):
+				 	  $com = 400+$idsi;
+				 	  break;
+				 	case('sport_club'):
+				 	  $com = 450+$idsi;
+				 	  break;
+				 	case('notarius'):
+				 	  $com = 500+$idsi;
+				 	  break;           
+				 	case('butik'):
+				 	 $com = 550+$idsi;
+				 	  break;
+				 	case('univer'):
+				 	 $com = 600+$idsi;
+				 	  break;     
+				 	case('courses'):
+				 	  $com = 650+$idsi;
+				 	  break;  
+				 }
+				 
+			 //идентификатор $com=переменная; например id темы $com=$news_id; можно использовать лат. буквы например nov_11
+			include("comment.php");  ?>
+				
+			</div>
+			 
 		</div>
 	  </div>
 	</body>
