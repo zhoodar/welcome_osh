@@ -14,143 +14,111 @@
 		<script type="text/javascript"  src="js/jsforgal.js">   </script> 
 		<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
 		<script type="text/javascript"  src="js/jquery.mousewheel.min.js"> </script>
-		<script type="text/javascript"  src="js/slimbox2.js"> </script>
+		
 		<title>Добро пожаловать!</title>
 	</head>
 
 	<body class="fon">
 
 		<div class="MainFrame">
-
-			
-
-			<div class="Menu">
-				<!-- начaло меню -->
-				<div class="header">
-					<img src="img/logo.png" style="margin-left: 20px;"/>
-				</div>
-				<br />
-				<br />
-				<ul id="nav">
-					<li>
-						<a href="index.php?view=index">Главная</a>
-					</li>
-					<li>
-						<a class="hsubs" href="#">Отдых и развлечение</a>
-						<ul class="subs">
-							<li>
-								<a href="index.php?view=kinoteatr">Кинотеатры</a>
-							</li>
-							<li>
-								<a href="index.php?view=guesthouse">Гостиницы</a>
-							</li>
-							<li>
-								<a href="index.php?view=restoran">Ресторан</a>
-							</li>
-							<li>
-								<a href="index.php?view=nigthclub">Ночные клубы</a>
-							</li>
-							<li>
-								<a href="index.php?view=sportclub">Спортивные клубы</a>
-							</li>
-						
-						</ul>
-
-					</li>
-					<li>
-						<a class="hsubs" href="#">Товары и услуги</a>
-						<ul class="subs">
-							<li>
-								<a href="index.php?view=torgovye-sentr">Торговые центры</a>
-							</li>
-							<li>
-								<a href="index.php?view=market">Супермаркеты</a>
-							</li>
-							<li>
-								<a href="index.php?view=butik">Магазины(бутик)</a>
-							</li>
-							<li>
-								<a href="index.php?view=attorney">Нотариус</a>
-							</li>
-							<li>
-								<a href="index.php?view=banks">Банки</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a class="hsubs" href="#">Учебное заведения</a>
-						<ul class="subs">
-							<li>
-								<a href="index.php?view=univers">ВУЗы</a>
-							</li>
-							<li>
-								<a href="index.php?view=schools">Школы</a>
-							</li>
-							<li>
-								<a href="index.php?view=uch_center">Учебные центры</a>
-							</li>
-							<li>
-								<a href="index.php?view=detskiesady">Дет сады</a>
-							</li>
-							
-						</ul>
-					</li>
-					<li>
-						<a class="hsubs" href="#">Интересное </a>
-						<ul class="subs">
-						<li>
-							<a href="galerea.php"> Галерея </a>
-						</li>
-						<li>
-							<a href="index.php?view=panorama"> Панорама </a>
-						</li>
-						
-						</ul>
-					</li>
-					
-					<li>
-						<a class="hsubs" href="#"> Ош &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
-						<ul class="subs">
-						<li>
-							<a href="index.php?view=oshcity"> О городе Ош </a>
-						</li>
-						<li>
-							<a href="#"> Новости </a>
-						</li>
-						<li>
-							<a href="#"> Карта города </a>
-						</li>
-						
-						</ul>
-					</li>
-
-				</ul>
-				<br />
-				<br />
-			
-				<div class="Footer">
-					<p align="center">
-						<br />
-						<br />
-						<br />
-						&copy; 2015
-						<a href="#">welcomeOsh.kg</a>
-					</p>
-
-				</div>
-
+			<div class="header">
+			   <img src="img/logo.png ">	
 			</div>
-
-	         <div class="pois">                             <!-- див поиск  -->
-			                                    
-			     <form name="search" action="search.php" method="post"  style="margin: 10px 20px  5px 520px;float: right;">
-	                   <input type="text" name="words" size="25"  placeholder="Поиск по сайту">
-	                   <input type="submit" name="bsearch" value=" поиск ">
+			 <div class="pois">                             <!-- Под головной  -->
+			     <a  href="index.php?view=index"><img style="margin: 10px;" src="img/dom_white.png" ></a>            
+			     <form  name="search" action="search.php" method="post"  style="margin: 7px 30px  5px 520px;float: right;">
+	                   <input class="find_text" type="text" name="words" size="25"  placeholder="Поиск по сайту">
+	                   <input class="find" type="submit" name="bsearch" value=" поиск ">
 	             </form>
 			</div>
 
-			<?php  include($_SERVER['DOCUMENT_ROOT'].'/welcome_osh/views/pages/'.$view.'.php ');  ?>
+			<div class="Menu"> <!-- начaло меню -->
+				
+				<ul id="navmenu-v">
+					<li><a href="index.php?view=index">Главная</a></li>
+					<li><a href="#">Отдых и развлечение</a>
+						<ul >
+							<li><a href="index.php?view=kinoteatr">Кинотеатры</a></li>
+							<li><a href="index.php?view=guesthouse">Гостиницы</a></li>
+							<li><a href="index.php?view=restoran">Ресторан</a></li>
+							<li><a href="index.php?view=nigthclub">Ночные клубы</a></li>
+							<li><a href="index.php?view=sportclub">Спортивные клубы</a></li>										
+						</ul>
+					</li>
+					<li><a href="#">Товары и услуги</a>
+						<ul >
+							<li><a href="index.php?view=torgovye-sentr">Торговые центры</a></li>
+							<li><a href="index.php?view=market">Супермаркеты</a></li>
+							<li><a href="index.php?view=butik">Магазины(бутик)</a></li>
+							<li><a href="index.php?view=attorney">Нотариус</a></li>
+							<li><a href="index.php?view=banks">Банки</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Учебное заведения</a>
+						<ul >
+							<li><a href="index.php?view=univers">ВУЗы</a></li>
+							<li><a href="index.php?view=schools">Школы</a></li>
+							<li><a href="index.php?view=uch_center">Учебные центры</a></li>
+							<li><a href="index.php?view=detskiesady">Дет сады</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#">Интересное </a>
+						<ul >
+							<li><a href="galerea.php"> Галерея </a></li>
+							<li><a href="index.php?view=panorama"> Панорама </a></li>
+						</ul>
+					</li>
+					<li><a  href="#"> Ош </a>
+						<ul >
+							<li><a href="index.php?view=oshcity"> О городе Ош </a></li>
+							<li><a href="#"> Новости </a></li>
+							<li><a href="#"> Карта города </a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
 
+			<?php  include($_SERVER['DOCUMENT_ROOT'].'/welcome_osh/views/pages/'.$view.'.php ');  ?>
+			
+			 <div class="footer">                             <!-- Под головной  -->
+			      <a  href="index.php?view=index"><img style="margin: 10px;" src="img/dom_white.png" ></a>                           
+			     <form name="search" action="search.php" method="post"  style="margin: 7px 30px  5px 520px;float: right;">
+	                   <input class="find_text" type="text" name="words" size="25"  placeholder="Поиск по сайту">
+	                   <input class="find" type="submit" name="bsearch" value=" поиск ">
+	             </form>
+			</div>
+			<div class="Footer">
+			    <div style="margin-left: 150px;">	
+				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
+				   		<font size="4px">Город Ош</font>
+				   		<hr />
+				   		<a href="#">О городе</a>
+				   	</div>
+				   	
+				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
+				   		<b>Все новости</b>
+				   		<hr />
+				   		<a href="#">Новости Оша</a>
+				   	</div>
+				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
+				   		<b>Интересное</b>
+				   		<hr />
+				   		<a href="#">Городской объектив</a>
+				   	</div>
+				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
+				   		<b>Passion</b>
+				   		<hr />
+				   		<a href="#">Обратный связь</a>
+				   		<a href="#">Авторы</a>
+				   		
+				   	</div>
+			   	</div>
+			</div>
+			<div class="Footer_bottom">
+				<div style="margin-left: 170px;"><p style="color: #b0b6c4">2016 ©  "PASSION CO". Все права защищены</p>.</div>
+			</div>
 		
 		</div>
 		
