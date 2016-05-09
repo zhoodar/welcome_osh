@@ -22,7 +22,8 @@
 
 		<div class="MainFrame">
 			<div class="header">
-			   <img src="img/logo.png ">	
+				 <div style=" margin:10px 10px 30px 180px; float: inherit; 	"><img src="img/logo.png "></div>	
+				 <div style="background: #aad5ee; height: 30px; opacity:0.6;"> </div>
 			</div>
 			 <div class="pois">                             <!-- Под головной  -->
 			     <a  href="index.php?view=index"><img style="margin: 10px;" src="img/dom_white.png" ></a>            
@@ -79,17 +80,17 @@
 				</ul>
 			
 			</div>
-
+			 <!-- Рабочая зона -->
 			<?php  include($_SERVER['DOCUMENT_ROOT'].'/welcome_osh/views/pages/'.$view.'.php ');  ?>
 			
-			 <div class="footer">                             <!-- Под головной  -->
+			 <div class="footer">                             <!-- Над footer  -->
 			      <a  href="index.php?view=index"><img style="margin: 10px;" src="img/dom_white.png" ></a>                           
 			     <form name="search" action="search.php" method="post"  style="margin: 7px 30px  5px 520px;float: right;">
 	                   <input class="find_text" type="text" name="words" size="25"  placeholder="Поиск по сайту">
 	                   <input class="find" type="submit" name="bsearch" value=" поиск ">
 	             </form>
 			</div>
-			<div class="Footer">
+			<div class="Footer">  <!-- Footer menu -->
 			    <div style="margin-left: 150px;">	
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<font size="4px">Город Ош</font>
@@ -116,8 +117,8 @@
 				   	</div>
 			   	</div>
 			</div>
-			<div class="Footer_bottom">
-				<div style="margin-left: 170px;"><p style="color: #b0b6c4">2016 ©  "PASSION CO". Все права защищены</p>.</div>
+			<div class="Footer_bottom">  <!-- Footer  -->
+				<div style="margin-left: 170px;"><p style="color: #b0b6c4">2016 ©  "PASSION CO". Все права защищены.</p></div>
 			</div>
 		
 		</div>
