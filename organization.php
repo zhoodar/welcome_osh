@@ -15,14 +15,11 @@ include ("db.php");
 		<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
 
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
-		<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
 		<link href="style/comment_style.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript"  src="js/slide.js"></script>
-		<script type="text/javascript"  src="js/jsforgal.js">   </script> 
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/jquery.validationengine.js"></script>
 		<script type="text/javascript" src="js/skycom.js"></script>
 		<script type="text/javascript" src="panorama/swfobject.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		
 		
 		<title>Добро пожаловать!</title>
 	</head>

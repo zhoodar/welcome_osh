@@ -22,7 +22,7 @@
 
 		<div class="MainFrame">
 			<div class="header">
-				 <div style=" margin:10px 10px 30px 180px; float: inherit; 	"><img src="img/logo.png "></div>	
+				 <div style=" margin:10px 10px 30px 180px; float: inherit; 	"><a href="index.php"><img src="img/logo.png "></a></div>	
 				 <div style="background: #aad5ee; height: 30px; opacity:0.6;"> </div>
 			</div>
 			 <div class="pois">                             <!-- Под головной  -->
