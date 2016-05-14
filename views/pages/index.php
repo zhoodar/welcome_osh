@@ -51,6 +51,25 @@
 				<li><img src="img/slide/6.jpg" alt=""></li>
 			</ul>
 			</div>
+			
+			<h3>Город Ош-медия</h3>
+			<div  >
+				 <video id="movie" width="380" height="210" controls="controls"  poster="videos/title.jpg" style="padding-right: 10px;" >
+				 	<source src="videos/sulaimanka.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'> 
+ 				 </video>
+ 				  <script>
+					   var v = document.getElementById("movie");
+					   v.onclick = function() {
+					    if (v.paused) {
+					     v.play();
+					    } else {
+					     v.pause();
+					    }
+					   };
+				  </script>
+			</div>
+			
+			
 		</div>
 		<!-- Конец слайдер  -->
 		
@@ -61,23 +80,33 @@
 					 <hr size="3" color="#537FD3"/>
 					  <p align="justify">Будьте в курсе самых свежих и интересных в нашем любимом городе ОШ.Теперь не надо
 					   искать новости по интернету, все самое интересное и актуальное можно прочитать на нашем сайте.</p>
-				 </div> 		
-			    <div class="leftDiv_block">
-			    	<div style="float: right;"><img src="img/brt.jpg"> </div> 
+				 </div> 
+				 <div class="leftDiv_block">
+			    	<div style="float: right;"><img src="img/nw1.jpg"> </div> 
 		  		    <div style="float: inherit;">
-		  		    	<a href="#"><strong> 02.03.2015 на ул. Монуева в ОШе произошло серьезное ДТП  </strong></a> 
-		  		    	<p> в ОШе произошло серьезное ДТП с участием 5 машин</p>
+		  		    	<a href="#"><strong> 14.05.2016 В Оше открылся сезон фонтанов  </strong></a> 
+		  		    	<p> Жители особо отмечают фонтаны, установленные в парках Навои, 
+		  		    	Алымбек-Датка, скверах и парках Ошского района и других.</p>
+		  		    </div>
+		  		    
+		  		</div>		
+			    <div class="leftDiv_block">
+			    	<div style="float: right;"><img src="img/nw2.jpg"> </div> 
+		  		    <div style="float: inherit;">
+		  		    	<a href="#"><strong> 13.05.2016 Айтмамат Кадырбаев останется на втрой периуд  </strong></a> 
+		  		    	<p> Коалиция “Мыйзам жана ыйман” предлогали мера Айтмамата Кадырбаева на в...</p>
 		  		    </div>
 		  		    
 		  		</div>
 		  		<div class="leftDiv_block">
 			    	<div style="float: right;"><img src="img/brt.jpg"> </div> 
 		  		    <div style="float: inherit;">
-		  		    	<a href="#"><strong> 02.03.2015 на ул. Монуева в ОШе произошло серьезное ДТП  </strong></a> 
+		  		    	<a href="#"><strong> 12.05.2016 на ул. Монуева в ОШе произошло серьезное ДТП  </strong></a> 
 		  		    	<p> в ОШе произошло серьезное ДТП с участием 5 машин</p>
 		  		    </div>
 		  		    
 		  		</div>
+		  		
 			 		            
 			</div>
 		</div>
