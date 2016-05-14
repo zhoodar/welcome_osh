@@ -8,10 +8,7 @@
 	<meta name="description" content="Город Ош, справочник по городу" />
 	<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
-	<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />	
-	<script type="text/javascript"  src="js/slide.js"></script>
-	<script type="text/javascript"  src="js/jsforgal.js">   </script> 
-	
+		
 	
 </head>
 
@@ -262,18 +259,8 @@
 					<span>Дополнительное описание</span>
 					<textarea id="dop_opisanie" rows="10" name="dop_opisanie" cols="40"></textarea>
 				</label>
-				<strong style="color:"> &nbsp;Защита от робота (заглавными буквами)<em style="color:#FF6035">*</em></strong>
-				<table border="0" cellspacing="0" cellpadding="0">
-					<tr>
-						<td align="left" valign="middle" class="text">
-						<img src="capcha.php"  align="absmiddle" /></td>
-						<td width="10" align="left" valign="middle" class="text">&nbsp;</td>
-						<td align="left" valign="bottom" class="text"><label class="field2 ">
-						<input type="text" style="height: 30px; font-size: 16px;" name="pr" maxlength="12" id="id_name">
-						</label> </td>
-						<td align="left" valign="middle" class="text"><p class="pravila">&nbsp; </p></td>
-					</tr>
-				</table>
+				
+				
 				<br />
 				<div class="clear"></div>
 				<button type="reset" class="gray-button">Сбросить поля формы</button>
