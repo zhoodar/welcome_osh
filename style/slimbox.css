@@ -81,3 +81,22 @@
 #lbCaption {
 	font-weight: bold;
 }
+#galerea1{
+    float: inherit;
+	width: 100%; 
+    height: 100%;  
+    margin: 25px;
+}	
+#galerea{
+	position: static;
+    float: left;
+    border: 3px #FFFFFF solid;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+#galerea:hover{
+	position: static;
+    float: left;
+    border: 3px #2b2b2b solid;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+   
+}
