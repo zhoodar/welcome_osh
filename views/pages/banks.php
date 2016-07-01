@@ -15,7 +15,7 @@
 			    <td width="120">&nbsp;</td>
 			 	<td>
 	   				<div  align="center" >
-						<form action="add_organization.php" method="POST" class="decorated-form">
+						<form action="index.php?view=add_organization" method="POST" class="decorated-form">
 							<input name="news" type="submit" value="Добавить свою организацию" class="orange-button">
 						</form>
 					</div>
