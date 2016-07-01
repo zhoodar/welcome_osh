@@ -6,14 +6,12 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Город Ош, справочник по городу" />
 		<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
-
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
-		<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
-			
+		<link rel="SHORTCUT ICON" href="img/icon.png" type="image/x-icon" />
 		<script type="text/javascript"  src="js/slide.js"></script>
 		<script type="text/javascript"  src="js/jsforgal.js">   </script> 
-		<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
 		<script type="text/javascript"  src="js/jquery.mousewheel.min.js"> </script>
+		<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
 		
 		<title>Добро пожаловать!</title>
 	</head>
@@ -67,7 +65,6 @@
 					<li><a href="#">Интересное </a>
 						<ul >
 							<li><a href="galerea.php"> Галерея </a></li>
-							<li><a href="index.php?view=panorama"> Панорама </a></li>
 						</ul>
 					</li>
 					<li><a  href="#"> Ош </a>
@@ -95,23 +92,23 @@
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<font size="4px">Город Ош</font>
 				   		<hr />
-				   		<a href="#">О городе</a>
+				   		<a href="index.php?view=oshcity">О городе</a>
 				   	</div>
 				   	
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
-				   		<b>Все новости</b>
+				   		<b>Организации</b>
 				   		<hr />
-				   		<a href="#">Новости Оша</a>
+				   		<a href="index.php?view=add_organization">Добавить огранизацию</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
 				   		<b>Интересное</b>
 				   		<hr />
-				   		<a href="#">Городской объектив</a>
+				   		<a href="galerea.php">Городской объектив</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<b>Passion</b>
 				   		<hr />
-				   		<a href="#">Обратный связь</a>
+				   		<a href="index.php?view=about">Обратная связь</a>
 				   		<a href="#">Авторы</a>
 				   		
 				   	</div>
