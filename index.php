@@ -50,9 +50,9 @@
 		break;
 	}
 	
-	$arr = array('univers','torgovye-sentr','sportclub','schools','restoran','nigthclub','market','kinoteatr','guesthouse','detskiesady','butik','banks','attorney','index');
+	$arr = array('univers','torgovye-sentr','sportclub','schools','restoran','nigthclub','market','kinoteatr','guesthouse','detskiesady','butik','banks','attorney','index','oshcity','about','add_organization','uch_center');
 	
-	if(!in_array($view,$arr)) die("<p align='center'><h1>ERROR 404!</h1><br><hr>Bad request!</p>");
+	if(!in_array($view,$arr)) die("<center><h1>ERROR 404!</h1><hr>Bad request!</center>");
 
 	include($_SERVER['DOCUMENT_ROOT'].'/welcome_osh/views/layouts/osh.php');
 

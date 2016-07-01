@@ -150,11 +150,4 @@ function zapros($com,$com_papa,$start,$num)
 	echo '</div><div id="mask"></div>';
 
 ?>
-	<form id="ComRed" action="#" method="post" class="window" style="padding:10px;">
-		<textarea name="com_text" id="poleComRed" style="width:350px; height:150px;"></textarea><br />
-		<input id="poleComId" name="com_id" type="hidden" value="0" />
-		<input id="poleComId" name="acom" type="hidden" value="redcom" />
-		<center>
-		     <input type="submit" value="Редактировать" style="cursor:pointer; margin:10px 0 0 0;" />
-		</center>
-	</form>
+	

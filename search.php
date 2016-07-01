@@ -33,7 +33,7 @@ if (isset($_POST['bsearch'])) {
 
 <html>
 	<head>
-		<title>Добро пожаловать!</title>
+		<title>Поиск по сайту!</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="description" content="Город Ош, справочник по городу" />
 		<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
@@ -146,23 +146,23 @@ if (isset($_POST['bsearch'])) {
 				<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<font size="4px">Город Ош</font>
 				   		<hr />
-				   		<a href="#">О городе</a>
+				   		<a href="index.php?=oshcity</a>=">О городе</a>
 				   	</div>
 				   	
-				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
-				   		<b>Все новости</b>
+				   		<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
+				   		<b>Организации</b>
 				   		<hr />
-				   		<a href="#">Новости Оша</a>
+				   		<a href="index.php?view=add_organization">Добавить огранизацию</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
 				   		<b>Интересное</b>
 				   		<hr />
-				   		<a href="#">Городской объектив</a>
+				   		<a href="galerea.php">Городской объектив</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<b>Passion</b>
 				   		<hr />
-				   		<a href="#">Обратный связь</a>
+				   		<a href="index.php?view=about">Обратная связь</a>
 				   		<a href="#">Авторы</a>
 				   		
 				   </div>   	

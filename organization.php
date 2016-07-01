@@ -21,7 +21,7 @@ include ("db.php");
 		<script type="text/javascript" src="js/jquery.js"></script>
 		
 		
-		<title>Добро пожаловать!</title>
+		<title>Спсок организации</title>
 	</head>
 
 	<body class="fon">
@@ -182,7 +182,10 @@ include ("db.php");
 				}
 				
 				else{
-					echo" <p style='font-size: 14px; font-style:italic;'>Контракт не подписан чтобы показать понараму!</p>";
+					echo" <p style='font-size: 14px; font-style:italic;'>Контракт не подписан чтобы показать понараму!
+					<br> Если вы хотети заказать наши услуги тогда <a href='index.php?view=about'>перейдите по этой ссылке</a>
+					чтобы заказать.
+					</p>";
 				}
 				?>
 				</span>
@@ -210,24 +213,24 @@ include ("db.php");
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<font size="4px">Город Ош</font>
 				   		<hr />
-				   		<a href="#">О городе</a>
+				   		<a href="index.php?view=oshcity">О городе</a>
 				   	</div>
 				   	
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
-				   		<b>Все новости</b>
+				   		<b>Организации</b>
 				   		<hr />
-				   		<a href="#">Новости Оша</a>
+				   		<a href="index.php?view=add_organization">Добавить огранизацию</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
 				   		<b>Интересное</b>
 				   		<hr />
-				   		<a href="#">Городской объектив</a>
+				   		<a href="galerea.php">Городской объектив</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<b>Passion</b>
 				   		<hr />
-				   		<a href="#">Обратный связь</a>
-				   		<a href="#">Авторы</a>
+				   		<a href="index.php?view=about">Обратная связь</a>
+				   		<a href="#">Авторы</a
 				   		
 				   	</div>
 			   	</div>

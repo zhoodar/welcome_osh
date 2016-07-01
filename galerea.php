@@ -2,20 +2,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-	<title>Добро пожаловать!</title>
+	<title>Галерея сайта</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="description" content="Город Ош, справочник по городу" />
 	<meta name="keywords" content="фото, ОШ, здания, маршрутка, ВУЗы и т.д." />
 
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
-	<link rel="stylesheet" type="text/css" href="style/slimbox2.css" />
-	
-	
+	<link rel="stylesheet" type="text/css" href="style/slimbox.css" />
 	<script type="text/javascript"  src="js/jquery-1.4.1.min.js"></script>
 	<script type="text/javascript"  src="js/jsforgal.js">   </script> 
 	<script type="text/javascript"  src="js/cloud-carousel.1.0.4.min.js"> </script>
 	<script type="text/javascript"  src="js/jquery.mousewheel.min.js"> </script>
-	<script type="text/javascript"  src="js/slimbox2.js"> </script>
+	<script type="text/javascript"  src="js/slimbox.js"> </script>
 	
 </head>
 
@@ -85,7 +83,7 @@
 		<div id="workArea"> 
 
 		  <div>
-		  	<h2> Фото города ОШ 2000-2014 год </h2>
+		  	<h2> Фото города ОШ 2000-2016 год </h2>
 		  </div>
 	  
 		  <div id="galerea1">
@@ -122,31 +120,9 @@
 
 		     </div>
 	 
-		   <div id="carousel1"> 
-		          <div id="innerCarousel">
-				  	<a href="img/carousel/1_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/1.jpg" 
-				  	alt="Путешествия на мотоцикле" /></a>
-					<a href="img/carousel/2_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/2.jpg"
-					 alt="Ночные гонки" /></a>
-					<a href="img/carousel/3_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/3.jpg"
-					 alt="Гонки по автобанам" /></a>
-					<a href="img/carousel/4_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/4.jpg"
-					 alt="Городские заезды" /></a>
-					<a href="img/carousel/5_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/5.jpg" 
-					alt="Мотокросс" /></a>
-					<a href="img/carousel/6_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/6.jpg" 
-					alt="Дальние выезды" /></a>
-					<a href="img/carousel/7_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/7.jpg"
-					 alt="На харлее с девушкой" /></a>
-					<a href="img/carousel/8_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/8.jpg"
-					 alt="Семьей в горы" /></a>
-					<a href="img/carousel/9_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/9.jpg" 
-					alt="По бездорожью" /></a>
-					<a href="img/carousel/10_big.jpg" rel="lightbox"><img class="cloudcarousel" src="img/carousel/10.jpg" 
-					alt="Прыжки с адреналином" /></a>
-								
-			      </div>
-		   	 </div>
+		 <div >
+		 	<hr width="400">
+		 </div>
 
 		 </div>
 	 	<div class="footer">                             <!-- Над footer  -->
@@ -161,23 +137,23 @@
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<font size="4px">Город Ош</font>
 				   		<hr />
-				   		<a href="#">О городе</a>
+				   		<a href="index.php?=oshcity</a>=">О городе</a>
 				   	</div>
 				   	
-				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
-				   		<b>Все новости</b>
+				   		<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
+				   		<b>Организации</b>
 				   		<hr />
-				   		<a href="#">Новости Оша</a>
+				   		<a href="index.php?view=add_organization">Добавить огранизацию</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px; ">
 				   		<b>Интересное</b>
 				   		<hr />
-				   		<a href="#">Городской объектив</a>
+				   		<a href="galerea.php">Городской объектив</a>
 				   	</div>
 				   	<div style="float: left; color: #ffffff; padding: 20px; width: 150px;">
 				   		<b>Passion</b>
 				   		<hr />
-				   		<a href="#">Обратный связь</a>
+				   		<a href="index.php?view=about">Обратная связь</a>
 				   		<a href="#">Авторы</a>
 				   		
 				   	</div>
